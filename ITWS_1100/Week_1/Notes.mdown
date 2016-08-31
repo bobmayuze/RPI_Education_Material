@@ -1,0 +1,102 @@
+Aug, 29, 2016
+---
+
+# Agenda
+	- Intro to Prof, TA, Students
+	- Review syllabus
+	- Review Learning Management System web
+	- Technology Survy
+
+---
+# Intro to Prof, TA, Students
+	
+	Richard M Plotka
+	Lally 304
+	516-527-9860
+	Thursday 12:30 - 1:30 PM
+	shen.lung or rplotka@tsi400.com
+	FB: rplotka@tsi400.com //push him!
+
+	Melissa
+	Lally 315
+	518-428-6147
+	Tue and Fri 2:00 - 3:00
+	haym2@rpi.edu
+
+	Jeremy Falk
+	TA LAB : Lally 205
+	715-697-6180
+	Wed 5:00 PM - 7:00 PM
+
+# Intro to ITWS: RPI LMS site
+	
+	http;//lms9.rpi.edu/
+
+	What is IT:
+	The application of CS adn WEB sicence to the common purposes of life.
+
+	- Technology
+		Protocols
+		Programming
+		Web Design
+		Database
+
+	- Application
+		Communication and Networking
+		SOcial Networks
+		Enterprise Apps(ERP, SCM, CRM)
+			automated billing systems
+			payment processing
+			email marketing systems
+			content management
+			call center and customer support
+			Customer Relationship Management (CRM)
+			Enterprise Resource Planning (ERP)
+			Business Intelligence
+			Business Continuity Planning (BCP)
+			HR Management
+			Enterprise Application Integration (EAI)
+			enterprise search
+			messaging and collaboration systems.	
+			
+
+		...
+
+
+# Case Reading
+
+	http;//cb.hbsp.harvard.edu/cbmp/access/50889091  //make takes $30
+
+# Assigments
+	- Weekly posted on LMS, due prior to the next class
+
+# Grading Crateria
+
+	HW and Business Case 15
+	Lab 				 15
+	Quiz 				 20
+	Term Proj 			 20
+	Final 				 20
+	Participation 		 10
+
+	Participation!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
