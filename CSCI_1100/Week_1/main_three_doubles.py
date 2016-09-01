@@ -36,6 +36,40 @@ def has_three_double(word):
             return True
     return False
 
+def has_two_double(word):
+    """
+    Returns True if the word contains three consecutive pairs of
+    double letters and False otherwise.         
+    """
+    for l in range(len(word)-5):
+        if word[l] == word[l+1] and \
+                word[l+2]==word[l+3]:
+            return True
+    return False
+
+def has_three_double_and_one_letter_between(word):
+    """
+    Returns True if the word contains three consecutive pairs of
+    double letters and False otherwise.         
+    """
+    for l in range(len(word)-7):
+        if word[l] == word[l+1] and \
+                word[l+3]==word[l+4] and \
+                word[l+6]==word[l+7]:
+            return True
+    return False
+
+def has_three_double_and_two_letters_between(word):
+    """
+    Returns True if the word contains three consecutive pairs of
+    double letters and False otherwise.         
+    """
+    for l in range(len(word)-9):
+        if word[l] == word[l+1] and \
+                word[l+4]==word[l+5] and \
+                word[l+8]==word[l+9]:
+            return True
+    return False
 # Comments that fit in a single line can be put in this format.
 
 # The main body of the program starts here
