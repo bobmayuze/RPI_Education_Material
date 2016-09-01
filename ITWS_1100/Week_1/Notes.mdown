@@ -83,6 +83,88 @@ Aug, 29, 2016
 
 
 
+Sept, 1st, 2016
+---
+
+#Bits and Bytes
+
+	Bits
+
+		Digital
+
+			Byte: a bounch of bits
+
+			8 bits = 1 byte //for convenience
+				
+			Why?	
+				-Powers of 2 are convenient for binary
+				-It is large enough
+					2^4 = 16 too small
+					2^8 = 256 big enough for Eng lang
+				-0/1 or On/Off or yes/no is helpful
+
+	64 bit machine
+
+		A machine that process info in 64 bit chunks
+
+		Processor simply transports the info 64 bits a time
+
+		the data path is large
+
+		64 bit = 8 bytes
+
+	Binary convert
+
+	Hexadecimal
+
+		-Sign color in CSS file, represents by 3 bytes, such as 000000(black) to FFFFFF(white)
+
+
+
+
+
+# Network Protocal
+
+	Connecting devices together to share data
+
+		Switch:  links devices  together to form  a network  
+		Router:   connects networks  together and acts as  a dispatcher
+	
+		Some devices act as both switch and router 
+
+	
+	TCP/IP stands for Transmission Control Protocol/Internet Protocol
+
+	3 ways handshake
+		A:I'am here, R U there?
+		B:Yeah, R U still there?
+		A:Sure I am, let's talk!
+
+	UDP: Legal of Legend, real-time such as Skype
+
+	UDP vs TCP
+
+
+# Protocal
+
+	What is a protocal:
+		A protocal is a set of rules to communicate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
