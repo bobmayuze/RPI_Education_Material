@@ -10,3 +10,52 @@ Week Assigments
 		Review the slides for this class posted on LMS prior to class
 		Review and prepare Lab 1 on Protocols which will be done during class on September 8.
 		Read and contribute to the RPI LMS discussion board for this course.
+	TCP
+		port 80
+	Https
+		port 443
+	gzip
+		A encoding way of transfer data
+
+	URI 
+		URN: What a thing is
+		URL: where that thing is
+
+	Methods
+		GET
+			Request a resource from the server
+			Do not change server file
+		POST
+			Change server file
+			Used (typically) to submit forms
+			Send/submit data
+
+	Response Status-Line
+		eg: HTTP/1.1 200 OK
+
+	JSON format
+		name: value
+			eg: Host: www.nytimes.com
+	Wget
+		Webpage get
+	cURL
+		command url
+
+	XMLHttpRequest
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

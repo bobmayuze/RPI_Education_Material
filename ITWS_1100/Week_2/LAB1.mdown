@@ -1,0 +1,117 @@
+LAB 1
+
+	Download Lab 1 from the course website
+
+		It must be submitted before end of day of 9/8 to the LMS assignments area for Lab 1
+
+			-Name the file "Lab1-YourFullName.docx" (if you do not have Word, you can use a text editor to answer the questions; save as a text file).
+			-Do not use Google docs/sheets
+
+
+	1.Basic Network Information
+		a.ipconfig
+			What is your hostname? 
+				bobma
+			What is your MAC address?  
+				WIFI:     e0:f8:47:29:9b:d4
+				Ethernet: c8:2a:14:07:8e:39
+			Who is the vendor of your Ethernet adapter?
+				Apple
+			What is your IPv4 address? 
+				129.161.48.165
+			What is your IPv6 address?
+				2620::2820:d04:e2f8:47ff:fe29:9bd4
+				2620::2820:d04:c4f:a5ef:16b1:8d8c temporary
+			What are the IP (v4) addresses of your DNS servers?
+				128.113.28.67
+				128.113.26.77				
+			What is the IP (v4) address of your default gateway?  
+				129.161.49.254
+
+		b.netstat -4 –f (netstat –f inet)
+			What kind of transport layer protocols are in use?
+				TCP 4
+				UDP 4
+				UDP 46
+			What kind of application layer protocols are in use? 
+				https
+				http
+
+		c.netstat -4 –b (netstat –b –f inetp)
+			What applications are using your network ports, and what application layer protocol are they using? (only name up to three) 
+				Safari	Https
+				Chrome	https
+
+		d.nslookup 192.0.32.10 
+		nslookup it allows you to look up IPs or hostnames against a name server (by default, the first DNS server configured in your network settings).
+			1.Upon running “nslookup 192.0.32.10”, what is the host name of the name server you are using?
+				192.in-addr.arpa	nameserver = y.arin.net.
+				192.in-addr.arpa	nameserver = r.arin.net.
+				192.in-addr.arpa	nameserver = arin.authdns.ripe.net.
+				192.in-addr.arpa	nameserver = x.arin.net.
+				192.in-addr.arpa	nameserver = z.arin.net.
+				192.in-addr.arpa	nameserver = u.arin.net.
+			2.What name is associated with 192.0.32.10?  What is the significance of this name?
+				10.32.0.192.in-addr.arpa	name = ccnso.icann.org
+				It's the domain name of its owner.  
+			3.Perform a “netstat –n” in your console (this tells netstat not to resolve names against the name server – notice that it’s quicker).  Do an nslookup on a foreign IP from your netstat results.  What name did you uncover?  (If the DNS server can’t resolve the IP you picked, try another one.)
+				roundcube.rpi.edu for 128.113.2.23
+
+			4.Do an “nslookup 127.0.0.1”.  What name is returned?  What is the significance of this name?
+				localhost
+				It's the address of my laptop for a inter-net.
+			5.What is the IP address of rpilms.rpi.edu?
+				128.113.26.134
+			6.What is the IP address of www.rpi.edu? Is it IPv4 or IPv6?  
+				128.113.0.2
+				IPv4
+
+		e.tracert -4 www.ucla.edu (traceroute www.ucla.edu)
+			1.How many hops did it take for you to reach www.ucla.edu?
+				13 hops
+			2.From the tracert you just ran, locate an IPv4 address of a router along the path.  Visit http://www.iplocation.net/ and enter the IPv4 address.  Were you able to determine the router’s location?  If so, where is it?
+				Yes, it's in LA, CA with Latitude 34.070251464844 and Longitude -118.44759368896
+			3.Enter your own IPv4 address in the website.  What did you learn? 
+				My own IPv4 address is like my real address, which means it need to be hided, because I may not want to public my home address to everyone online. 
+
+	2.SSH to RCS-Linux
+
+		a.netstat -e
+			1.What transport layer protocols do you see in use?
+				TCP
+			2.What application layer protocols do you see in use?
+				SSH
+		b.host www.rpi.edu
+			1.What IPv4 addresses are used by www.rpi.edu?  
+				rpi.edu has address 128.113.0.2
+		c.traceroute www.google.com
+			1.How many hops did it take to get to Google?   
+				13
+		d.In your Windows Command Prompt console use netstat (as in section 1.b) to find your current SSH connection.   Copy the netstat line showing the SSH connection to here. 
+				Proto Recv-Q Send-Q Local Address               Foreign Address             State
+				tcp        0      0 rmtacc26-la.rcs.rpi.edu:ssh swains-87.dynamic2.rp:49880 ESTABLISHED 
+				tcp        0      0 rmtacc26-la.rcs.rpi.edu:ssh palmyra-atoll-71.dyna:56450 ESTABLISHED 
+				tcp        0      0 rmtacc26-la.rcs.rpi.edu:ssh swains-23.dynamic2.rp:58356 ESTABLISHED 				      
+
+	3.Overriding DNS	
+		Use jEdit, notepad or some other text editor to edit your hosts file: C:\Windows\System32\drivers\etc\hosts (/etc/hosts on linux/unix).  Using the examples in the comments at the top of the hosts file as a guide, give www.rpi.edu a new host name – you can use any IP address of www.rpi.edu for this exercise (you need only one IP).
+		Visit the new hostname in your browser and capture a screenshot of the browser window. (CTRL-SHIFT-ALT P4rntScrn)  
+		Paste the screenshot here.(I’d encourage you to now return your hosts file to its original state. Then clear your Browser’s cache).) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
