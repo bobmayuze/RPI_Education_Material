@@ -43,7 +43,13 @@ Week Assigments
 
 	XMLHttpRequest
 
+TA Questions
 
+	Does the lab report needs a format? Is my format okay?
+
+	Could you pelase help to form a study group?
+
+	Any book recommonded for LAMP?
 	
 
 
