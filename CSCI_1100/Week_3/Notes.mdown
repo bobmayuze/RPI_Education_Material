@@ -1,0 +1,17 @@
+Sept, 12th, 2016
+---
+
+
+pow()
+	power function
+
+round()
+	round number up
+
+min()/max()
+	Find the minimum/maximum number form a number of numbers,
+
+Python round up: closed even number
+
+Format method
+	'{:.2f} {}'.format(1.234,1.231)

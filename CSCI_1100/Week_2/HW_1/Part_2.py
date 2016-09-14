@@ -1,14 +1,14 @@
 # Input time and distance
-Minutes = input('Minutes ==> ') 
+Minutes = int(input('Minutes ==> ')) 
 print(Minutes)
-Seconds = input('Seconds ==> ') 
+Seconds = int(input('Seconds ==> ')) 
 print(Seconds)
-Miles = input('Miles ==> ') 
+Miles = float(input('Miles ==> ')) 
 print(Miles)
 
 # Calculate the total amount of time
-Total_Seconds = int(Minutes)*60 + int(Seconds)
+Total_Seconds = Minutes*60 + Seconds
 
 # Output the result
-print('Pace is ',int(Total_Seconds / float(Miles)) // 60 ,'minutes and ',int(Total_Seconds / float(Miles) % 60),' seconds per mile.')
-print('Speed is ',float(Miles)/Total_Seconds*3600,' miles per hour.')
+print('\n'+'Pace is ',int(Total_Seconds / Miles) // 60 ,'minutes and ',int(Total_Seconds / Miles % 60),' seconds per mile.')
+print('Speed is ',round(float(Miles)/Total_Seconds*3600,2),' miles per hour.')

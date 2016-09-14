@@ -1,0 +1,5 @@
+Four_Letter_word = input('Enter a four letter word:')
+Number_Of_Asterik = len(Four_Letter_word)
+print('***','*'*Number_Of_Asterik,'***', sep='')
+print('**',Four_Letter_word ,'**')
+print('***','*'*Number_Of_Asterik,'***', sep='')

@@ -1,5 +1,3 @@
 # RPI
 Repo for RPI education
 YOYOYO
-Lol
-
