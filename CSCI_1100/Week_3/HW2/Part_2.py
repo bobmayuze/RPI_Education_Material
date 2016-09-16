@@ -2,8 +2,7 @@
 # Date: Sept, 16th, 2016
 # This code is made for CSCI-1000_HW_2_Part_1
 
-# Import modules
-import math
+
 # Define the functions we need for playing the trick.
 def reverse3(three_digits_number):
 	hundreds = three_digits_number // 100
@@ -33,7 +32,7 @@ print(five_digits_number, 'reversed is', reversed_five_digits_number)
 # Get the numbers form 5 digits for substriction
 first_three_digits_of_the_original_number = five_digits_number // 100
 last_three_digits_of_the_reversed_number = reversed_five_digits_number % 1000
-difference_between_first_three_digits_of_the_original_number_and_last_three_digits_of_the_reversed_number = int(math.fabs(first_three_digits_of_the_original_number - last_three_digits_of_the_reversed_number))
+difference_between_first_three_digits_of_the_original_number_and_last_three_digits_of_the_reversed_number = abs(first_three_digits_of_the_original_number - last_three_digits_of_the_reversed_number)
 print(first_three_digits_of_the_original_number, '-', last_three_digits_of_the_reversed_number, '=', difference_between_first_three_digits_of_the_original_number_and_last_three_digits_of_the_reversed_number)
 
 # Get numbers of difference for substriction
