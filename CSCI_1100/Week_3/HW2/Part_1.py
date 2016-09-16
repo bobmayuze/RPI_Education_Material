@@ -1,6 +1,6 @@
 # Author: Yuze Bob Ma
 # Date: Sept, 16th, 2016
-# This code is made for CSCI-1000 HW 2
+# This code is made for CSCI-1000_HW_2_Part_1
 
 # import math module
 import math
@@ -9,6 +9,8 @@ import math
 the_amount_of_oxygen_in_the_air = 0.21
 percent_of_the_oxygen_used_each_day = 0.41
 number_of_days = 300
+π = math.pi
+
 
 # Input value for calculations
 radius_of_capsule = float(input('Radius of capsule (m) ==>'))
@@ -20,12 +22,30 @@ print(height_of_oxygen_reservoir)
 
 # Define calculation function
 def volume_sphere(radius):
-	π = math.pi
 	volume_of_capsule = (4/3) * π * radius ** 3
 	return volume_of_capsule
 
+def volume_cylinder(radius, height):
+	volume_of_cylinder = π * radius ** 2 * height 
+	return volume_of_cylinder
 
+
+# Calculation
 volume_of_capsule = volume_sphere(radius_of_capsule)
-
+volume_of_cylinder = volume_cylinder(radius_of_oxygen_reservoir,height_of_oxygen_reservoir)
 oxygen_needed_for_the_trip = volume_of_capsule * the_amount_of_oxygen_in_the_air * percent_of_the_oxygen_used_each_day * number_of_days
+amount_of_oxygen_the_cylinder_holds = 210 * volume_of_cylinder
+number_of_tanks = math.ceil(oxygen_needed_for_the_trip/amount_of_oxygen_the_cylinder_holds)
+
+# Output the results
+print()
 print('Oxygen needed for the trip is ', round(oxygen_needed_for_the_trip,3), 'm^3', sep = '' )
+print('Each cylinder holds ', round(amount_of_oxygen_the_cylinder_holds,3), 'm^3 at 3000 psi.', sep = '')
+print('The trip will require', number_of_tanks, 'reservoir tanks.', sep = '')
+
+
+
+
+
+
+
