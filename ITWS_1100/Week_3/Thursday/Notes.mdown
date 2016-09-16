@@ -1,0 +1,24 @@
+Sept, 15th, 2016
+---
+
+Term project 
+	Description
+	Make case for value
+	Document
+
+HTML
+	
+	metadata: data describe other data
+
+Why HTML
+	-simple
+	-lightweight
+	-easy way to send information both for users to see, and computers to interpret at the same time.
+Preference
+	Tag>Class>id>inline
+
+CSS shorthand
+
+	margin: 1em 2em 3em 2em;  /* clockwise from top */
+
+	
