@@ -13,9 +13,9 @@ number_of_days = 300
 
 
 # Input value for calculations
-radius_of_capsule = float(input('Radius of capsule (m) ==>'))
+radius_of_capsule = float(input('Radius of capsule (m) ==> '))
 print(radius_of_capsule)
-radius_of_oxygen_reservoir = float(input('Radius of oxygen reservoir (m) ==>'))
+radius_of_oxygen_reservoir = float(input('Radius of oxygen reservoir (m) ==> '))
 print(radius_of_oxygen_reservoir)
 height_of_oxygen_reservoir= float(input('Height of oxygen reservoir (m) ==> '))
 print(height_of_oxygen_reservoir)
@@ -39,9 +39,9 @@ number_of_tanks = math.ceil(oxygen_needed_for_the_trip/amount_of_oxygen_the_cyli
 
 # Output the results
 print()
-print('Oxygen needed for the trip is ', round(oxygen_needed_for_the_trip,3), 'm^3', sep = '' )
-print('Each cylinder holds ', round(amount_of_oxygen_the_cylinder_holds,3), 'm^3 at 3000 psi.', sep = '')
-print('The trip will require', number_of_tanks, 'reservoir tanks.', sep = '')
+print('Oxygen needed for the trip is {:.3f}m^3.'.format(oxygen_needed_for_the_trip) )
+print('Each cylinder holds {:.3f}m^3 at 3000 psi.'.format(amount_of_oxygen_the_cylinder_holds))
+print('The trip will require', number_of_tanks, 'reservoir tanks.')
 
 
 

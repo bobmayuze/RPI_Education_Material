@@ -21,9 +21,10 @@ def reverse5(five_digits_number):
 
 # Input the 5 digit number
 print('Enter a 5 digit number whose first and third digits must differ by at least 2.\nThe answer will be 1089, if your number is valid')
-five_digits_number = int(input('Enter a value ==>'))
-print(five_digits_number)
+five_digits_number = int(input('Enter a value ==> '))
 
+print(five_digits_number)
+print()
 # Show the calculation
 print('Here is the computation:')
 reversed_five_digits_number = reverse5(five_digits_number)
