@@ -24,7 +24,7 @@ initial_y = 10
 next_x = float(input("The next x value ==> "))
 next_y = float(input("The next y value ==> "))
 
-print("The line has moved from ({:d},{:d}) ".format(initial_x, initial_y),\
+print("The line has moved from ({0:d},{1:d}) ".format(initial_x, initial_y),\
     "to", str(next_x), ",", next_y)
 
 
