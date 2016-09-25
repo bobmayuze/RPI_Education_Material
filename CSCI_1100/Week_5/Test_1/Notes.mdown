@@ -1,0 +1,14 @@
+Global variables 
+
+Local variables
+
+Parameters
+
+Arguments
+
+Void function has no return
+
+Execute: run the whole file
+
+Interpreter: like terminal running python
+

@@ -3,3 +3,21 @@ Sept, 22th, 2016
 
 Today we got a guset to give us a speech about the development of Web Science
 
+
+Identify a (social) problem
+
+Refurbished phone, broken phone, should we fix it or just buy a new one? 
+	How much it takes to fix a broken devices according to its degree of damage?
+	How much can we get by selling the used one?
+	How much do I need to add to get a new one?
+	Can these components be recycled or be reused for other components?
+
+Propose an engineered solution
+
+	
+
+Identify how to measure, analyze, evaluate, iterate...
+	Present price of new devices
+	Present price of new components
+	Present price of used components
+Create a Web Science Scenari

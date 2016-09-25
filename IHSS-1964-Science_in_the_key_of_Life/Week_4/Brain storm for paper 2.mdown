@@ -8,4 +8,45 @@ Adaptive Change the world
 	
 	Web2.0
 	Students feelings about a class
-	
+
+How does adaption motivate the world:
+
+Most of the examples of engineering that come to mind are not adaptive. Bridges and buildings, lathes and power presses, cars, televisions, computers, are all designed to be indifferent to their environment, to withstand fluctuations, not to adapt to them. The best bridge is one that just stands there, whatever the weather.
+
+1. Life evolved
+	Animals
+		Bear
+
+	Humanity
+		The ratio of head is getting bigger
+		Legs get longer
+		European narrower nose shapes
+			The various shapes of noses appear to be tied to adaptations to climate, Holton said. The nose must properly heat and humidify the air that you breathe. In a cold climate, it's advantageous to have a narrower nose. That's so that when a person inhales, more air comes into contact with the mucosal surface of nose, which provides moisture. The narrow nose maximizes the surface area.
+
+
+
+2. Technology evolved due to adaption from the external environment
+	Before: We can beat nature! 
+		Bridge
+	Now: We will go with nature!
+		Robitics
+			Input
+			Process
+			Output
+		Project Ara
+
+3. Business angle to client directly
+	Web 2.0
+		Wordpress
+		blog
+	Fashion
+		Paris buyer shop
+	Google, Yahoo, Apple
+		Personalized service
+
+https://en.wikipedia.org/wiki/Cogito_ergo_sum
+http://www.designthinkingforeducators.com/design-thinking/
+https://en.wikipedia.org/wiki/Brown_bear
+Atduino.cc
+https://en.wikipedia.org/wiki/IPhone#Sales_and_profits
+
