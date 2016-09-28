@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+	<title>Reverse Mad Libs</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<script type="text/javascript" src="lib\jquery\jquery-1.4.2.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		   $("tr:even").addClass("even");
+		   $("tr:odd").addClass("odd");
+		});
+	</script>
+</head>
+<body>
+	<div class="instructions">
+	<h1>Reverse Madlibs Application</h1>
+	<p>
+	This application was created by Norbert Szmyt, Toni Sanders, and Jaikrishen Wadhwani as a Introduction to Information Technology term 
+	project to demonstrate our mastery of HTML/CSS, javascript, and user design.
+	</p>
+    <p>
+    This application is based of the word game Mad Libs. Mad Libs is a game that is played by several people.  The game consists of one person
+	 asking the other players for adjectives, nouns, verbs and other parts of speech to complete the missing words of a story that is given.
+	</p>
+    <p>
+    This application seeks to reverse the process.  The Reverse Mad Libs application asks the user to write a story in the Mad Libs format.  
+	When the user submits the story, the application will fill in the blanks using random words from a database. This application is completely 
+	contained to one page that links to a database of words. The main page is where the user inputs the story of their creation and receives the 
+	output of great hilarity.  The database consists of multiple lists separated by type.
+	</p>
+	</div>
+	
+	<div class="container">
+	<h2>Instructions:</h2>
+	<p>
+	Enter a short story using the Mad Lib format in the text box below. Where you would like a blank, type the tag for the corresponding 
+	lexical or part of speech in the location. Make sure to include the slashes on both sides and spell the terms correctly.  Click on the 
+	submit button on completion. Enjoy a good laugh!
+	</p>
+		<form id="madlibsForm" action=" ">	
+			<p>
+			<textarea id="story" rows="30" cols="50">
+Enter your story here.  Use the tags on the right hand side to insert blanks for your story.
+			</textarea>
+			<br></br>
+			</p>
+			<div id="submit">
+				<button>
+				Submit
+				</button>
+			</div>			
+		</form>
+	</div>
+	<div id="partsofspeech">
+		<table id="lexicals">
+			<tr id="heading">
+				<td>Part of Speech</td>
+				<td>Tag</td>
+			</tr>
+			<tr>
+				<td>Nouns</td>
+				<td>/noun/ </td>
+			</tr>
+			<tr>
+				<td>Verbs</td>
+				<td>/verb/</td>
+			</tr>
+			<tr>
+				<td>Adjectives</td>
+				<td>/adj/</td>
+			</tr>
+			<tr>
+				<td>Inappropiate nouns</td>
+				<td>/inoun/</td>
+			</tr>
+			<tr>
+				<td>Famous people</td>
+				<td>/fpeople/</td>
+			</tr>
+			<tr>
+				<td>Locations</td>
+				<td>/locations/</td>
+			</tr>
+			<tr>
+				<td>Insults</td>
+				<td>/insults/</td>
+			</tr>
+			<tr>
+				<td>Relatives</td>
+				<td>/relatives/</td>
+			</tr>
+			<tr>
+				<td>Food</td>
+				<td>/food/</td>
+			</tr>
+			<tr>
+				<td>Body parts</td>
+				<td>/bodyp/</td>
+			</tr>
+			<tr>
+				<td>Illnesses</td>
+				<td>/ill/</td>
+			</tr>
+			<tr>
+				<td>Verbs ending in ing</td>
+				<td>/verbing/</td>
+			</tr>
+			<tr>
+				<td>Vehicles</td>
+				<td>/vehicles/</td>
+			</tr>
+			<tr>
+				<td>RPI Courses</td>
+				<td>/RPI/</td>
+			</tr>
+			<tr>
+				<td>Sports</td>
+				<td>/sports/</td>			
+			</tr>
+			<tr>
+				<td>Animals</td>
+				<td>/animals/</td>
+			</tr>
+			<tr>
+				<td>Colors</td>
+				<td>/colors/</td>
+			</tr>
+			<tr>
+				<td>Occupations</td>
+				<td>/occupations/</td>
+			</tr>
+			<tr>
+				<td>Articles of clothing</td>
+				<td>/clothes/</td>
+			</tr>
+			<tr>
+				<td>Time of the day</td>
+				<td>/time/</td>
+			</tr>
+			<tr>
+				<td>Sound</td>
+				<td>/sound/</td>
+			</tr>
+			<tr>
+				<td>Nationalities</td>
+				<td>/nation/</td>
+			</tr>
+			<tr>
+				<td>Accessories</td>
+				<td>/acc/</td>
+			</tr>
+			<tr>
+				<td>Misfortunate events</td>
+				<td>/events/</td>
+			</tr>
+			<tr>
+				<td>Activites with your significant other</td>
+				<td>/sigother/</td>
+			</tr>
+			<tr>
+				<td>Girl names</td>
+				<td>/girls/</td>
+			</tr>
+			<tr>
+				<td>Guy names</td>
+				<td>/guys/</td>
+			</tr>
+			<tr>
+				<td>Alcohol</td>
+				<td>/alcohol/</td>
+			</tr>
+			<tr>
+				<td>Adverbs</td>
+				<td>/adverbs/</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body{
+	background-color:#000000;
+	color:#FFFFFF;
+	font-family:"Arial", sans-serif;
+	padding:0%;
+	margin:0%;
+	height:100%;
+}
+h1{
+	font-size:170%;
+	margin:20px;
+}
+h2{
+	margin:10px;
+}
+.instructions{
+	position:relative;
+	left:0;
+	width:30%;
+}
+.instructions p{
+	text-align:justify;
+	margin:20px;
+}
+.container{
+	position:fixed;
+	left:30%;
+	top:0;
+	width:40%;
+	height:100%;
+	background-color:#def;
+	border:3px outset #def;
+	text-align:center;
+	color:black;
+	overflow:auto;
+}
+.container p{
+	position:relative;
+	width:95%;
+	margin:10px;
+	text-align:justify;
+}
+textarea{
+	height:350px;
+	width: 100%;
+	overflow:auto;
+}
+#submit{
+	width:15%;
+	font-size:110%;
+	margin-left:42.5%;
+	margin-right:auto;
+	background-color:#a8a8ff;
+	border: 3px outset #a8a8ff;
+}
+#submit button{
+	background-color:#a8a8ff;
+	border-width:0px;
+	width:100%;
+}
+#partsofspeech{
+	position:absolute;
+	left:71%;
+	top:0;
+	width:29%;
+	padding:0%;
+	margin: 0% 0% 0% 0%;
+	color:#000000;
+}
+table {
+   width: 80%;
+   border: 0px outset #def;
+   margin: 0% 5% 0% 2.5%;
+   text-align: left;
+   font-size:90%
+}
+#heading{
+	background-color:black;
+	color:white;
+	font-style:oblique;
+}
+.odd {
+   background-color: #def; 
+}
+.odd td {
+   border-bottom: 1px solid #cef; 
+}
+.even {
+	background-color:#c0c0c0;
+}
+td{
+	border-width:0px;
+}

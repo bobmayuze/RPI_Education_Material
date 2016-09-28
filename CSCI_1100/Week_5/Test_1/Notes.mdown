@@ -12,3 +12,67 @@ Execute: run the whole file
 
 Interpreter: like terminal running python
 
+#String Method
+
+.count()
+The .count() method adds up the number of times a character or sequence of characters appears in a string. For example:
+
+```
+
+>>> s = "That that is is that that is not is not is that it it is"
+>>> s.count("t")
+13
+
+```
+
+string.find({Target string}, {start Position}, {ending position} )
+
+```
+>>> s
+'bob ma yuze'
+>>> s.count('b')
+2
+>>> s.title()
+'Bob Ma Yuze'
+>>> s.capitalize()
+'Bob ma yuze'
+>>> s.upper()
+'BOB MA YUZE'
+```
+
+
+What is the exact output of the following Python code? Show the output to the right of the code. Also, what are the arguments, the local variables, and the parameters in the code?
+```
+x=3
+     def do_something(x, y):
+         z=x+y
+         print(z)
+         z += z
+         print(z)
+         z += z * z
+         print(z)
+     do_something(1, 1)
+     y=1
+     do_something(y,x)
+```
+Solution to the second part: The arguments are 1 and 1 in the first call and y and x in the second. x and y are the parameters, and z is the only local variable.
+
+
+```
+def mystring(s):
+    return s + '\n'
+def yourstring(s):
+    return s * len(s)
+print(yourstring(mystring('cat')))
+print(mystring(yourstring('fish')))
+Solution:
+cat
+cat
+cat
+cat
+fishfishfishfish
+```
+
+\n counts as one character
+
+
