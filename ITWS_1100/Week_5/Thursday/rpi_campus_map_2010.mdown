@@ -1,0 +1,24 @@
+Sep, 29th, 2016
+---------
+
+Human computer interaction
+
+1.Learnability 
+	
+	How quickly can a user learn to perform tasks the first time?
+
+2.Efficiency
+	
+	Once learned, how quickly can a user perform tasks?
+
+	3.Memorability
+	
+	How well can a user remember how to perform tasks?
+
+4.Errors
+	
+	How many errors do users make? Can they recover quickly?
+
+5.Satisfaction 
+	
+	How pleasant is the user interface to use?

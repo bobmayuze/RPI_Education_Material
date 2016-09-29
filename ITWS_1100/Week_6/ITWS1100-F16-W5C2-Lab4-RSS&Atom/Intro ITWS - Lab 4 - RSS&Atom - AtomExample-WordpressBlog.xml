@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en-US"
+  xml:base="http://wordpress.org/news/wp-atom.php"
+   >
+	<title type="text">WordPress News</title>
+	<subtitle type="text">WordPress News</subtitle>
+
+	<updated>2013-09-11T21:01:43Z</updated>
+
+	<link rel="alternate" type="text/html" href="http://wordpress.org/news" />
+	<id>http://wordpress.org/news/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="http://wordpress.org/news/feed/atom/" />
+
+	<generator uri="http://wordpress.org/" version="3.7-alpha-25343">WordPress</generator>
+		<entry>
+		<author>
+			<name>Andrew Nacin</name>
+						<uri>http://nacin.com/</uri>
+					</author>
+		<title type="html"><![CDATA[WordPress 3.6.1 Maintenance and Security Release]]></title>
+		<link rel="alternate" type="text/html" href="http://wordpress.org/news/2013/09/wordpress-3-6-1/" />
+		<id>http://wordpress.org/news/?p=2675</id>
+		<updated>2013-09-11T21:01:43Z</updated>
+		<published>2013-09-11T20:48:23Z</published>
+		<category scheme="http://wordpress.org/news" term="Releases" /><category scheme="http://wordpress.org/news" term="Security" />		<summary type="html"><![CDATA[After nearly 7 million downloads of WordPress 3.6, we are pleased to announce the availability of version 3.6.1. This maintenance release fixes 13 bugs in version 3.6, which was a very smooth release. WordPress 3.6.1 is also a security release for all previous WordPress versions and we strongly encourage you to update your sites immediately. [&#8230;]]]></summary>
+		<content type="html" xml:base="http://wordpress.org/news/2013/09/wordpress-3-6-1/"><![CDATA[<p>After <a href="http://wordpress.org/download/counter/">nearly 7 million downloads</a> of WordPress 3.6, we are pleased to announce the availability of version 3.6.1. This maintenance release <a href="http://core.trac.wordpress.org/query?status=closed&amp;group=resolution&amp;milestone=3.6.1">fixes 13 bugs</a> in version 3.6, which was a very smooth release.</p>
+<p><strong>WordPress 3.6.1 is also a security release for all previous WordPress versions</strong> and we strongly encourage you to update your sites immediately. It addresses three issues fixed by the WordPress security team:</p>
+<ul>
+<li>Block unsafe PHP unserialization that could occur in limited situations and setups, which can lead to remote code execution. Reported by <a href="http://vagosec.org/" rel="nofollow">Tom Van Goethem</a>.</li>
+<li>Prevent a user with an Author role, using a specially crafted request, from being able to create a post &#8220;written by&#8221; another user. Reported by <a href="http://anakornk.wordpress.com/" rel="nofollow">Anakorn Kyavatanakij</a>.</li>
+<li>Fix insufficient input validation that could result in redirecting or leading a user to another website. Reported by Dave Cummo, a Northrup Grumman subcontractor for the <a href="http://www.cdc.gov/" rel="nofollow">U.S. Centers for Disease Control and Prevention</a>.</li>
+</ul>
+<p>Additionally, we&#8217;ve adjusted security restrictions around file uploads to mitigate the potential for cross-site scripting.</p>
+<p>We appreciated <a href="http://codex.wordpress.org/FAQ_Security">responsible disclosure</a> of these issues directly to our security team. For more information on the changes, see the <a href="http://codex.wordpress.org/Version_3.6.1">release notes</a> or consult <a href="http://core.trac.wordpress.org/log/branches/3.6?stop_rev=24972&amp;rev=25345">the list of changes</a>.</p>
+<p><a href="http://wordpress.org/wordpress-3.6.1.zip">Download WordPress 3.6.1</a> or update now from the Dashboard → Updates menu in your site&#8217;s admin area.</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://wordpress.org/news/2013/09/wordpress-3-6-1/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://wordpress.org/news/2013/09/wordpress-3-6-1/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Matt Mullenweg</name>
+						<uri>http://ma.tt/</uri>
+					</author>
+		<title type="html"><![CDATA[WordPress 3.6 &#8220;Oscar&#8221;]]></title>
+		<link rel="alternate" type="text/html" href="http://wordpress.org/news/2013/08/oscar/" />
+		<id>http://wordpress.org/news/?p=2661</id>
+		<updated>2013-08-01T21:49:34Z</updated>
+		<published>2013-08-01T21:43:22Z</published>
+		<category scheme="http://wordpress.org/news" term="Releases" />		<summary type="html"><![CDATA[The latest and greatest WordPress, version 3.6, is now live to the world and includes a beautiful new blog-centric theme, bullet-proof autosave and post locking, a revamped revision browser, native support for audio and video embeds, and improved integrations with Spotify, Rdio, and SoundCloud. Here&#8217;s a video that shows off some of the features using [&#8230;]]]></summary>
+		<content type="html" xml:base="http://wordpress.org/news/2013/08/oscar/"><![CDATA[<p>The latest and greatest WordPress, version 3.6, is now <a href="http://wordpress.org/download/">live to the world</a> and includes a beautiful new blog-centric theme, bullet-proof autosave and post locking, a revamped revision browser, native support for audio and video embeds, and improved integrations with Spotify, Rdio, and SoundCloud. Here&#8217;s a video that shows off some of the features using our cast of professional actors:</p>
+<div id="v-UmhwbWJH-1" class="video-player"><embed id="v-UmhwbWJH-1-video" src="http://s0.videopress.com/player.swf?v=1.03&amp;guid=UmhwbWJH&amp;isDynamicSeeking=true" type="application/x-shockwave-flash" width="692" height="388" title="Introducing WordPress 3.6 &quot;Oscar&quot;" wmode="direct" seamlesstabbing="true" allowfullscreen="true" allowscriptaccess="always" overstretch="true"></embed></div>
+<p>We&#8217;re calling this release &#8220;Oscar&#8221; in honor of the great jazz pianist <a href="http://en.wikipedia.org/wiki/Oscar_Peterson">Oscar Peterson</a>. Here&#8217;s a bit more about some of the new features, which you can also find on the about page in your dashboard after you upgrade.</p>
+<h3>User Features</h3>
+<p><img class="alignright" alt="" src="https://wordpress.org/images/core/3.6/twentythirteen.png" width="300" /></p>
+<ul>
+<li>The <strong>new Twenty Thirteen theme</strong> inspired by modern art puts focus on your content with a colorful, single-column design made for media-rich blogging.</li>
+<li><strong>Revamped Revisions</strong> save every change and the new interface allows you to scroll easily through changes to see line-by-line who changed what and when.</li>
+<li><strong>Post Locking</strong> and <strong>Augmented Autosave</strong> will especially be a boon to sites where more than a single author is working on a post. Each author now has their own autosave stream, which stores things locally as well as on the server (so much harder to lose something) and there&#8217;s an interface for taking over editing of a post, as demonstrated beautifully by our bearded buddies in the video above.</li>
+<li><strong>Built-in HTML5 media player</strong> for native audio and video embeds with no reliance on external services.</li>
+<li>The <strong>Menu Editor</strong> is now much easier to understand and use.</li>
+</ul>
+<h3>Developer features</h3>
+<ul>
+<li>A new audio/video API gives you access to metadata like ID3 tags.</li>
+<li>You can now choose HTML5 markup for things like comment and search forms, and comment lists.</li>
+<li>Better filters for how revisions work, so you can store a different amount of history for different post types.</li>
+<li>Tons more <a href="http://codex.wordpress.org/Version_3.6">listed on the Codex</a>, and of course you can always <a href="http://core.trac.wordpress.org/query?status=closed&amp;group=resolution&amp;milestone=3.6">browse the over 700 closed tickets</a>.</li>
+</ul>
+<h3>The Band</h3>
+<p>This release was led by <a href="http://markjaquith.com/">Mark Jaquith</a> and <a href="http://geekreprieve.com/">Aaron Campbell</a>, and included contributions from the following fine folks. Pull up some Oscar Peterson on your music service of choice, or vinyl if you have it, and check out some of their profiles:</p>
+<p><a href="http://profiles.wordpress.org/technosailor">Aaron Brazell</a>, <a href="http://profiles.wordpress.org/aaroncampbell">Aaron D. Campbell</a>, <a href="http://profiles.wordpress.org/aaronholbrook">Aaron Holbrook</a>, <a href="http://profiles.wordpress.org/jorbin">Aaron Jorbin</a>, <a href="http://profiles.wordpress.org/kawauso">Adam Harley</a>, <a href="http://profiles.wordpress.org/adamsilverstein">adamsilverstein</a>, <a href="http://profiles.wordpress.org/akted">AK Ted</a>, <a href="http://profiles.wordpress.org/xknown">Alex Concha</a>, <a href="http://profiles.wordpress.org/alexkingorg">Alex King</a>, <a href="http://profiles.wordpress.org/viper007bond">Alex Mills (Viper007Bond)</a>, <a href="http://profiles.wordpress.org/momo360modena">Amaury Balmer</a>, <a href="http://profiles.wordpress.org/sabreuse">Amy Hendrix (sabreuse)</a>, <a href="http://profiles.wordpress.org/anatolbroder">Anatol Broder</a>, <a href="http://profiles.wordpress.org/nacin">Andrew Nacin</a>, <a href="http://profiles.wordpress.org/azaozz">Andrew Ozz</a>, <a href="http://profiles.wordpress.org/andrewryno">Andrew Ryno</a>, <a href="http://profiles.wordpress.org/andy">Andy Skelton</a>, <a href="http://profiles.wordpress.org/gorgoglionemeister">Antonio</a>, <a href="http://profiles.wordpress.org/apimlott">apimlott</a>, <a href="http://profiles.wordpress.org/awellis13">awellis13</a>, <a href="http://profiles.wordpress.org/barry">Barry</a>, <a href="http://profiles.wordpress.org/beaulebens">Beau Lebens</a>, <a href="http://profiles.wordpress.org/belloswan">BelloSwan</a>, <a href="http://profiles.wordpress.org/bilalcoder">bilalcoder</a>, <a href="http://profiles.wordpress.org/bananastalktome">Billy (bananastalktome)</a>, <a href="http://profiles.wordpress.org/bobbingwide">bobbingwide</a>, <a href="http://profiles.wordpress.org/bobbravo2">Bob Gregor</a>, <a href="http://profiles.wordpress.org/bradparbs">bradparbs</a>, <a href="http://profiles.wordpress.org/bradyvercher">Brady Vercher</a>, <a href="http://profiles.wordpress.org/kraftbj">Brandon Kraft</a>, <a href="http://profiles.wordpress.org/brianlayman">Brian Layman</a>, <a href="http://profiles.wordpress.org/beezeee">Brian Zeligson</a>, <a href="http://profiles.wordpress.org/bpetty">Bryan Petty</a>, <a href="http://profiles.wordpress.org/chmac">Callum Macdonald</a>, <a href="http://profiles.wordpress.org/carldanley">Carl Danley</a>, <a href="http://profiles.wordpress.org/caspie">Caspie</a>, <a href="http://profiles.wordpress.org/charlestonsw">Charleston Software Associates</a>, <a href="http://profiles.wordpress.org/cheeserolls">cheeserolls</a>, <a href="http://profiles.wordpress.org/chipbennett">Chip Bennett</a>, <a href="http://profiles.wordpress.org/c3mdigital">Chris Olbekson</a>, <a href="http://profiles.wordpress.org/cochran">Christopher Cochran</a>, <a href="http://profiles.wordpress.org/cfinke">Christopher Finke</a>, <a href="http://profiles.wordpress.org/chriswallace">Chris Wallace</a>, <a href="http://profiles.wordpress.org/corvannoorloos">Cor van Noorloos</a>, <a href="http://profiles.wordpress.org/crazycoders">crazycoders</a>, <a href="http://profiles.wordpress.org/danielbachhuber">Daniel Bachhuber</a>, <a href="http://profiles.wordpress.org/mzaweb">Daniel Dvorkin (MZAWeb)</a>, <a href="http://profiles.wordpress.org/redsweater">Daniel Jalkut (Red Sweater)</a>, <a href="http://profiles.wordpress.org/daniloercoli">daniloercoli</a>, <a href="http://profiles.wordpress.org/dannydehaan">Danny de Haan</a>, <a href="http://profiles.wordpress.org/csixty4">Dave Ross</a>, <a href="http://profiles.wordpress.org/dfavor">David Favor</a>, <a href="http://profiles.wordpress.org/jdtrower">David Trower</a>, <a href="http://profiles.wordpress.org/davidwilliamson">David Williamson</a>, <a href="http://profiles.wordpress.org/dd32">Dion Hulse</a>, <a href="http://profiles.wordpress.org/dllh">dllh</a>, <a href="http://profiles.wordpress.org/ocean90">Dominik Schilling (ocean90)</a>, <a href="http://profiles.wordpress.org/dovyp">dovyp</a>, <a href="http://profiles.wordpress.org/drewapicture">Drew Jaynes (DrewAPicture)</a>, <a href="http://profiles.wordpress.org/dvarga">dvarga</a>, <a href="http://profiles.wordpress.org/cais">Edward Caissie</a>, <a href="http://profiles.wordpress.org/elfin">elfin</a>, <a href="http://profiles.wordpress.org/empireoflight">Empireoflight</a>, <a href="http://profiles.wordpress.org/ericlewis">Eric Andrew Lewis</a>, <a href="http://profiles.wordpress.org/ethitter">Erick Hitter</a>, <a href="http://profiles.wordpress.org/ericmann">Eric Mann</a>, <a href="http://profiles.wordpress.org/evansolomon">Evan Solomon</a>, <a href="http://profiles.wordpress.org/faishal">faishal</a>, <a href="http://profiles.wordpress.org/feedmeastraycat">feedmeastraycat</a>, <a href="http://profiles.wordpress.org/frank-klein">Frank Klein</a>, <a href="http://profiles.wordpress.org/f-j-kaiser">Franz Josef Kaiser</a>, <a href="http://profiles.wordpress.org/fstop">FStop</a>, <a href="http://profiles.wordpress.org/mintindeed">Gabriel Koen</a>, <a href="http://profiles.wordpress.org/garyc40">Gary Cao</a>, <a href="http://profiles.wordpress.org/garyj">Gary Jones</a>, <a href="http://profiles.wordpress.org/gcorne">gcorne</a>, <a href="http://profiles.wordpress.org/geertdd">GeertDD</a>, <a href="http://profiles.wordpress.org/soulseekah">Gennady Kovshenin</a>, <a href="http://profiles.wordpress.org/georgestephanis">George Stephanis</a>, <a href="http://profiles.wordpress.org/gish">gish</a>, <a href="http://profiles.wordpress.org/tivnet">Gregory Karpinsky</a>, <a href="http://profiles.wordpress.org/hakre">hakre</a>, <a href="http://profiles.wordpress.org/hbanken">hbanken</a>, <a href="http://profiles.wordpress.org/hebbet">hebbet</a>, <a href="http://profiles.wordpress.org/helen">Helen Hou-Sandi</a>, <a href="http://profiles.wordpress.org/helgatheviking">helgatheviking</a>, <a href="http://profiles.wordpress.org/hirozed">hirozed</a>, <a href="http://profiles.wordpress.org/hurtige">hurtige</a>, <a href="http://profiles.wordpress.org/hypertextranch">hypertextranch</a>, <a href="http://profiles.wordpress.org/iandunn">Ian Dunn</a>, <a href="http://profiles.wordpress.org/ipstenu">Ipstenu (Mika Epstein)</a>, <a href="http://profiles.wordpress.org/jakub">jakub</a>, <a href="http://profiles.wordpress.org/h4ck3rm1k3">James Michael DuPont</a>, <a href="http://profiles.wordpress.org/jbutkus">jbutkus</a>, <a href="http://profiles.wordpress.org/jeremyfelt">Jeremy Felt</a>, <a href="http://profiles.wordpress.org/jerrysarcastic">Jerry Bates (JerrySarcastic)</a>, <a href="http://profiles.wordpress.org/jayjdk">Jesper Johansen (Jayjdk)</a>, <a href="http://profiles.wordpress.org/joehoyle">Joe Hoyle</a>, <a href="http://profiles.wordpress.org/joen">Joen Asmussen</a>, <a href="http://profiles.wordpress.org/jkudish">Joey Kudish</a>, <a href="http://profiles.wordpress.org/johnbillion">John Blackbourn (johnbillion)</a>, <a href="http://profiles.wordpress.org/johnjamesjacoby">John James Jacoby</a>, <a href="http://profiles.wordpress.org/jond3r">Jonas Bolinder (jond3r)</a>, <a href="http://profiles.wordpress.org/desrosj">Jonathan Desrosiers</a>, <a href="http://profiles.wordpress.org/jonbishop">Jon Bishop</a>, <a href="http://profiles.wordpress.org/duck_">Jon Cave</a>, <a href="http://profiles.wordpress.org/jcastaneda">Jose Castaneda</a>, <a href="http://profiles.wordpress.org/josephscott">Joseph Scott</a>, <a href="http://profiles.wordpress.org/jvisick77">Josh Visick</a>, <a href="http://profiles.wordpress.org/jrbeilke">jrbeilke</a>, <a href="http://profiles.wordpress.org/jrf">jrf</a>, <a href="http://profiles.wordpress.org/devesine">Justin de Vesine</a>, <a href="http://profiles.wordpress.org/justinsainton">Justin Sainton</a>, <a href="http://profiles.wordpress.org/kadamwhite">kadamwhite</a>, <a href="http://profiles.wordpress.org/trepmal">Kailey (trepmal)</a>, <a href="http://profiles.wordpress.org/karmatosed">karmatosed</a>, <a href="http://profiles.wordpress.org/ryelle">Kelly Dwan</a>, <a href="http://profiles.wordpress.org/keoshi">keoshi</a>, <a href="http://profiles.wordpress.org/kovshenin">Konstantin Kovshenin</a>, <a href="http://profiles.wordpress.org/obenland">Konstantin Obenland</a>, <a href="http://profiles.wordpress.org/ktdreyer">ktdreyer</a>, <a href="http://profiles.wordpress.org/kurtpayne">Kurt Payne</a>, <a href="http://profiles.wordpress.org/kwight">kwight</a>, <a href="http://profiles.wordpress.org/lancewillett">Lance Willett</a>, <a href="http://profiles.wordpress.org/leewillis77">Lee Willis (leewillis77)</a>, <a href="http://profiles.wordpress.org/lessbloat">lessbloat</a>, <a href="http://profiles.wordpress.org/settle">Mantas Malcius</a>, <a href="http://profiles.wordpress.org/maor">Maor Chasen</a>, <a href="http://profiles.wordpress.org/macbrink">Marcel Brinkkemper</a>, <a href="http://profiles.wordpress.org/marcuspope">MarcusPope</a>, <a href="http://profiles.wordpress.org/mark-k">Mark-k</a>, <a href="http://profiles.wordpress.org/markjaquith">Mark Jaquith</a>, <a href="http://profiles.wordpress.org/markmcwilliams">Mark McWilliams</a>, <a href="http://profiles.wordpress.org/markoheijnen">Marko Heijnen</a>, <a href="http://profiles.wordpress.org/mjbanks">Matt Banks</a>, <a href="http://profiles.wordpress.org/mboynes">Matthew Boynes</a>, <a href="http://profiles.wordpress.org/matthewruddy">MatthewRuddy</a>, <a href="http://profiles.wordpress.org/mattwiebe">Matt Wiebe</a>, <a href="http://profiles.wordpress.org/maxcutler">Max Cutler</a>, <a href="http://profiles.wordpress.org/melchoyce">Mel Choyce</a>, <a href="http://profiles.wordpress.org/mgibbs189">mgibbs189</a>, <a href="http://profiles.wordpress.org/fanquake">Michael</a>, <a href="http://profiles.wordpress.org/mdawaffe">Michael Adams (mdawaffe)</a>, <a href="http://profiles.wordpress.org/tw2113">Michael Beckwith</a>, <a href="http://profiles.wordpress.org/mfields">Michael Fields</a>, <a href="http://profiles.wordpress.org/mikehansenme">Mike Hansen</a>, <a href="http://profiles.wordpress.org/dh-shredder">Mike Schroder</a>, <a href="http://profiles.wordpress.org/dimadin">Milan Dinic</a>, <a href="http://profiles.wordpress.org/mitchoyoshitaka">mitcho (Michael Yoshitaka Erlewine)</a>, <a href="http://profiles.wordpress.org/batmoo">Mohammad Jangda</a>, <a href="http://profiles.wordpress.org/najamelan">najamelan</a>, <a href="http://profiles.wordpress.org/Nao">Naoko Takano</a>, <a href="http://profiles.wordpress.org/alex-ye">Nashwan Doaqan</a>, <a href="http://profiles.wordpress.org/niallkennedy">Niall Kennedy</a>, <a href="http://profiles.wordpress.org/nickdaugherty">Nick Daugherty</a>, <a href="http://profiles.wordpress.org/celloexpressions">Nick Halsey</a>, <a href="http://profiles.wordpress.org/ninnypants">ninnypants</a>, <a href="http://profiles.wordpress.org/norcross">norcross</a>, <a href="http://profiles.wordpress.org/paradiseporridge">ParadisePorridge</a>, <a href="http://profiles.wordpress.org/pauldewouters">Paul</a>, <a href="http://profiles.wordpress.org/pdclark">Paul Clark</a>, <a href="http://profiles.wordpress.org/pavelevap">pavelevap</a>, <a href="http://profiles.wordpress.org/petemall">Pete Mall</a>, <a href="http://profiles.wordpress.org/westi">Peter Westwood</a>, <a href="http://profiles.wordpress.org/phill_brown">Phill Brown</a>, <a href="http://profiles.wordpress.org/mordauk">Pippin Williamson</a>, <a href="http://profiles.wordpress.org/pollett">Pollett</a>, <a href="http://profiles.wordpress.org/nprasath002">Prasath Nadarajah</a>, <a href="http://profiles.wordpress.org/programmin">programmin</a>, <a href="http://profiles.wordpress.org/rachelbaker">rachelbaker</a>, <a href="http://profiles.wordpress.org/ramiy">Rami Yushuvaev</a>, <a href="http://profiles.wordpress.org/redpixelstudios">redpixelstudios</a>, <a href="http://profiles.wordpress.org/reidburke">reidburke</a>, <a href="http://profiles.wordpress.org/retlehs">retlehs</a>, <a href="http://profiles.wordpress.org/greuben">Reuben Gunday</a>, <a href="http://profiles.wordpress.org/rlerdorf">rlerdorf</a>, <a href="http://profiles.wordpress.org/rodrigosprimo">Rodrigo Primo</a>, <a href="http://profiles.wordpress.org/roulandf">roulandf</a>, <a href="http://profiles.wordpress.org/rovo89">rovo89</a>, <a href="http://profiles.wordpress.org/ryanduff">Ryan Duff</a>, <a href="http://profiles.wordpress.org/ryanhellyer">Ryan Hellyer</a>, <a href="http://profiles.wordpress.org/rmccue">Ryan McCue</a>, <a href="http://profiles.wordpress.org/zeo">Safirul Alredha</a>, <a href="http://profiles.wordpress.org/saracannon">sara cannon</a>, <a href="http://profiles.wordpress.org/scholesmafia">scholesmafia</a>, <a href="http://profiles.wordpress.org/sc0ttkclark">Scott Kingsley Clark</a>, <a href="http://profiles.wordpress.org/coffee2code">Scott Reilly</a>, <a href="http://profiles.wordpress.org/wonderboymusic">Scott Taylor</a>, <a href="http://profiles.wordpress.org/scribu">scribu</a>, <a href="http://profiles.wordpress.org/tenpura">Seisuke Kuraishi (tenpura)</a>, <a href="http://profiles.wordpress.org/sergej">Sergej</a>, <a href="http://profiles.wordpress.org/sergeybiryukov">Sergey Biryukov</a>, <a href="http://profiles.wordpress.org/sim">Simon Hampel</a>, <a href="http://profiles.wordpress.org/simonwheatley">Simon Wheatley</a>, <a href="http://profiles.wordpress.org/siobhan">Siobhan</a>, <a href="http://profiles.wordpress.org/sirzooro">sirzooro</a>, <a href="http://profiles.wordpress.org/slene">slene</a>, <a href="http://profiles.wordpress.org/solarissmoke">solarissmoke</a>, <a href="http://profiles.wordpress.org/srinig">SriniG</a>, <a href="http://profiles.wordpress.org/stephenh1988">Stephen Harris</a>, <a href="http://profiles.wordpress.org/storkontheroof">storkontheroof</a>, <a href="http://profiles.wordpress.org/sunnyratilal">Sunny Ratilal</a>, <a href="http://profiles.wordpress.org/sweetie089">sweetie089</a>, <a href="http://profiles.wordpress.org/tar">Tar</a>, <a href="http://profiles.wordpress.org/tlovett1">Taylor Lovett</a>, <a href="http://profiles.wordpress.org/thomasvanderbeek">Thomas van der Beek</a>, <a href="http://profiles.wordpress.org/n7studios">Tim Carr</a>, <a href="http://profiles.wordpress.org/tjsingleton">tjsingleton</a>, <a href="http://profiles.wordpress.org/tobiasbg">TobiasBg</a>, <a href="http://profiles.wordpress.org/toscho">toscho</a>, <a href="http://profiles.wordpress.org/taupecat">Tracy Rotton</a>, <a href="http://profiles.wordpress.org/travishoffman">TravisHoffman</a>, <a href="http://profiles.wordpress.org/uuf6429">uuf6429</a>, <a href="http://profiles.wordpress.org/lightningspirit">Vitor Carvalho</a>, <a href="http://profiles.wordpress.org/wojtek">wojtek</a>, <a href="http://profiles.wordpress.org/wpewill">wpewill</a>, <a href="http://profiles.wordpress.org/wraithkenny">WraithKenny</a>, <a href="http://profiles.wordpress.org/wycks">wycks</a>, <a href="http://profiles.wordpress.org/xibe">Xavier Borderie</a>, <a href="http://profiles.wordpress.org/yoavf">Yoav Farhi</a>, <a href="http://profiles.wordpress.org/thelastcicada">Zachary Brown</a>, <a href="http://profiles.wordpress.org/tollmanz">Zack Tollman</a>, <a href="http://profiles.wordpress.org/zekeweeks">zekeweeks</a>, <a href="http://profiles.wordpress.org/ziegenberg">ziegenberg</a>, and <a href="http://profiles.wordpress.org/viniciusmassuchetto">viniciusmassuchetto</a>.</p>
+<p>Time to upgrade!</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://wordpress.org/news/2013/08/oscar/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://wordpress.org/news/2013/08/oscar/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Mark Jaquith</name>
+						<uri>http://profiles.wordpress.org/users/markjaquith/</uri>
+					</author>
+		<title type="html"><![CDATA[WordPress 3.6 Release Candidate 2]]></title>
+		<link rel="alternate" type="text/html" href="http://wordpress.org/news/2013/07/wordpress-3-6-release-candidate-2/" />
+		<id>http://wordpress.org/news/?p=2649</id>
+		<updated>2013-07-24T07:25:10Z</updated>
+		<published>2013-07-24T07:25:10Z</published>
+		<category scheme="http://wordpress.org/news" term="Development" /><category scheme="http://wordpress.org/news" term="Testing" />		<summary type="html"><![CDATA[The second release candidate for WordPress 3.6 is now available for download and testing. We&#8217;re down to only a few remaining issues, and the final release should be available in a matter of days. In RC2, we&#8217;ve tightened up some aspects of revisions, autosave, and the media player, and fixed some bugs that were spotted [&#8230;]]]></summary>
+		<content type="html" xml:base="http://wordpress.org/news/2013/07/wordpress-3-6-release-candidate-2/"><![CDATA[<p>The second release candidate for WordPress 3.6 is now available for download and testing.</p>
+<p>We&#8217;re down to only a few remaining issues, and the final release should be available in a matter of days. In RC2, we&#8217;ve tightened up some aspects of revisions, autosave, and the media player, and fixed some bugs that were spotted in RC1. Please test this release candidate as much as you can, so we can deliver a smooth final release!</p>
+<p><strong>Think you&#8217;ve found a bug?</strong> Please post to the <a href="http://wordpress.org/support/forum/alphabeta/">Alpha/Beta area in the support forums</a>.</p>
+<p><strong>Developers,</strong> please continue to test your plugins and themes, so that if there is a compatibility issue, we can figure it out before the final release. You can find our <a href="http://core.trac.wordpress.org/report/6">list of known issues here</a>.</p>
+<p>To test WordPress 3.6, try the <a href="http://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you&#8217;ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="http://wordpress.org/wordpress-3.6-RC2.zip">download the release candidate here (zip)</a>.</p>
+<p><em>Revisions so smooth</em><br />
+<em>We autosave your changes</em><br />
+<em>Data loss begone!</em></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://wordpress.org/news/2013/07/wordpress-3-6-release-candidate-2/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://wordpress.org/news/2013/07/wordpress-3-6-release-candidate-2/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Mark Jaquith</name>
+						<uri>http://profiles.wordpress.org/users/markjaquith/</uri>
+					</author>
+		<title type="html"><![CDATA[WordPress 3.6 Release Candidate]]></title>
+		<link rel="alternate" type="text/html" href="http://wordpress.org/news/2013/07/wordpress-3-6-release-candidate/" />
+		<id>http://wordpress.org/news/?p=2639</id>
+		<updated>2013-07-13T03:24:12Z</updated>
+		<published>2013-07-13T03:23:17Z</published>
+		<category scheme="http://wordpress.org/news" term="Development" /><category scheme="http://wordpress.org/news" term="Testing" />		<summary type="html"><![CDATA[The first release candidate for WordPress 3.6 is now available. We hope to ship WordPress 3.6 in a couple weeks. But to do that, we really need your help! If you haven&#8217;t tested 3.6 yet, there&#8217;s no time like the present. (But please: not on a live production site, unless you&#8217;re feeling especially adventurous.) Think [&#8230;]]]></summary>
+		<content type="html" xml:base="http://wordpress.org/news/2013/07/wordpress-3-6-release-candidate/"><![CDATA[<p>The first release candidate for WordPress 3.6 is now available.</p>
+<p>We hope to ship WordPress 3.6 in a couple weeks. But to do that, we really need your help! If you haven&#8217;t tested 3.6 yet, there&#8217;s no time like the present. (But please: not on a live production site, unless you&#8217;re feeling especially adventurous.)</p>
+<p><strong>Think you&#8217;ve found a bug?</strong> Please post to the <a href="http://wordpress.org/support/forum/alphabeta/">Alpha/Beta area in the support forums</a>. If any known issues come up, you’ll be able to <a href="http://core.trac.wordpress.org/report/6">find them here</a>. <strong>Developers,</strong> please test your plugins and themes, so that if there is a compatibility issue, we can sort it out before the final release.</p>
+<p>To test WordPress 3.6, try the <a href="http://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you&#8217;ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="http://wordpress.org/wordpress-3.6-RC1.zip">download the release candidate here (zip)</a>.</p>
+<p>As you may have heard, we backed the Post Format UI feature out of the release. On the other hand, our slick new revisions browser had some extra time to develop. You should see it with 200+ revisions loaded — scrubbing back and forth at lightning speed is a thing of beauty.</p>
+<p><em>Delayed, but still loved</em><br />
+<em>The release will be out soon</em><br />
+<em>Test it, por favor</em></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://wordpress.org/news/2013/07/wordpress-3-6-release-candidate/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://wordpress.org/news/2013/07/wordpress-3-6-release-candidate/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Matt Mullenweg</name>
+						<uri>http://ma.tt/</uri>
+					</author>
+		<title type="html"><![CDATA[Annual WordPress Survey &amp; WCSF]]></title>
+		<link rel="alternate" type="text/html" href="http://wordpress.org/news/2013/07/annual-wordpress-survey-wcsf/" />
+		<id>http://wordpress.org/news/?p=2625</id>
+		<updated>2013-07-09T23:50:29Z</updated>
+		<published>2013-07-09T23:50:29Z</published>
+		<category scheme="http://wordpress.org/news" term="Community" /><category scheme="http://wordpress.org/news" term="Events" />		<summary type="html"><![CDATA[It&#8217;s time for our third annual user and developer survey! If you&#8217;re a WordPress user, developer, or business, we want your feedback. Just like previous years, we&#8217;ll share the data at the upcoming WordCamp San Francisco (WCSF). Results will also be sent to each survey respondent. It only takes a few minutes to fill out [&#8230;]]]></summary>
+		<content type="html" xml:base="http://wordpress.org/news/2013/07/annual-wordpress-survey-wcsf/"><![CDATA[<p><img class="alignright" alt="" align="right" src="http://wpdotorg.files.wordpress.com/2013/07/wcsf-2013.jpg" width="278" height="185" />It&#8217;s time for our third annual user and developer survey! If you&#8217;re a WordPress user, developer, or business, we want your feedback. Just like previous years, we&#8217;ll share the data at the upcoming <a href="http://2013.sf.wordcamp.org/">WordCamp San Francisco</a> (WCSF). Results will also be sent to each survey respondent.</p>
+<p>It only takes a few minutes to <a href="http://wp-survey.polldaddy.com/s/wp-2013">fill out the survey</a>, which will provide an overview of how people use WordPress.</p>
+<p>If you missed past State of the Word keynotes, be sure to check out them out for survey results from <a href="http://wordpress.org/news/2011/08/state-of-the-word/">2011</a> and <a href="http://ma.tt/2012/08/state-of-the-word-2012/">2012</a>.</p>
+<p>Speaking of WCSF, if you didn&#8217;t get a ticket or are too far away to attend, you can still <a href="http://2013.sf.wordcamp.org/tickets/">get a ticket for the live stream</a>! Watch the live video stream from the comfort of your home on July 26 and 27; WCSF t-shirt, or any shirt, optional.</p>
+<p>I hope to see you there.</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://wordpress.org/news/2013/07/annual-wordpress-survey-wcsf/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://wordpress.org/news/2013/07/annual-wordpress-survey-wcsf/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Andrew Nacin</name>
+						<uri>http://nacin.com/</uri>
+					</author>
+		<title type="html"><![CDATA[WordPress 3.5.2 Maintenance and Security Release]]></title>
+		<link rel="alternate" type="text/html" href="http://wordpress.org/news/2013/06/wordpress-3-5-2/" />
+		<id>http://wordpress.org/news/?p=2612</id>
+		<updated>2013-06-22T05:58:22Z</updated>
+		<published>2013-06-21T19:54:26Z</published>
+		<category scheme="http://wordpress.org/news" term="Releases" /><category scheme="http://wordpress.org/news" term="Security" />		<summary type="html"><![CDATA[WordPress 3.5.2 is now available. This is the second maintenance release of 3.5, fixing 12 bugs. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. The WordPress security team resolved seven security issues, and this release also contains some additional security hardening. The security fixes included: [&#8230;]]]></summary>
+		<content type="html" xml:base="http://wordpress.org/news/2013/06/wordpress-3-5-2/"><![CDATA[<p>WordPress 3.5.2 is now available. This is the second maintenance release of 3.5, fixing <a href="http://core.trac.wordpress.org/query?status=closed&amp;group=resolution&amp;milestone=3.5.2">12 bugs</a>. <strong>This is a security release for all previous versions and we strongly encourage you to update your sites immediately.</strong> The WordPress security team resolved seven security issues, and this release also contains some additional security hardening.</p>
+<p>The security fixes included:</p>
+<ul>
+<li>Blocking server-side request forgery attacks, which could potentially enable an attacker to gain access to a site.</li>
+<li>Disallow contributors from improperly publishing posts, reported by <a href="http://kovshenin.com/">Konstantin Kovshenin</a>, or reassigning the post&#8217;s authorship, reported by <a href="http://www.sharefaith.com/">Luke Bryan</a>.</li>
+<li>An update to the SWFUpload external library to fix cross-site scripting vulnerabilities. Reported by <a href="http://ma.la">mala</a> and <a href="http://mars.iti.pk.edu.pl/~grucha/">Szymon Gruszecki</a>. (Developers: More on SWFUpload <a href="http://make.wordpress.org/core/2013/06/21/secure-swfupload/">here</a>.)</li>
+<li>Prevention of a denial of service attack, affecting sites using password-protected posts.</li>
+<li>An update to an external TinyMCE library to fix a cross-site scripting vulnerability. Reported by <a href="http://twitter.com/rinakikun">Wan Ikram</a>.</li>
+<li>Multiple fixes for cross-site scripting. Reported by <a href="http://webapplicationsecurity.altervista.org/">Andrea Santese</a> and Rodrigo.</li>
+<li>Avoid disclosing a full file path when a upload fails. Reported by <a href="http://hauntit.blogspot.de/">Jakub Galczyk</a>.</li>
+</ul>
+<p>We appreciated <a href="http://codex.wordpress.org/FAQ_Security">responsible disclosure</a> of these issues directly to our security team. For more information on the changes, see the <a href="http://codex.wordpress.org/Version_3.5.2">release notes</a> or consult <a href="http://core.trac.wordpress.org/log/branches/3.5?rev=24498&amp;stop_rev=23347">the list of changes</a>.</p>
+<p><a href="http://wordpress.org/wordpress-3.5.2.zip">Download WordPress 3.5.2</a> or update now from the Dashboard → Updates menu in your site’s admin area.</p>
+<p><em>Also:</em> <strong>WordPress 3.6 Beta 4:</strong> If you are testing WordPress 3.6, please note that <a href="http://wordpress.org/wordpress-3.6-beta4.zip">WordPress 3.6 Beta 4</a> (zip) includes fixes for these security issues.</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://wordpress.org/news/2013/06/wordpress-3-5-2/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://wordpress.org/news/2013/06/wordpress-3-5-2/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Matt Mullenweg</name>
+						<uri>http://ma.tt/</uri>
+					</author>
+		<title type="html"><![CDATA[Ten Good Years]]></title>
+		<link rel="alternate" type="text/html" href="http://wordpress.org/news/2013/05/ten-good-years/" />
+		<id>http://wordpress.org/news/?p=2606</id>
+		<updated>2013-06-02T02:32:53Z</updated>
+		<published>2013-05-31T17:54:35Z</published>
+		<category scheme="http://wordpress.org/news" term="Meta" />		<summary type="html"><![CDATA[It&#8217;s been ten years since we started this thing, and what a long way we&#8217;ve come. From a discussion between myself and Mike Little about forking our favorite blogging software, to powering 18% of the web. It&#8217;s been a crazy, exciting, journey, and one that won&#8217;t stop any time soon. At ten years, it&#8217;s fun [&#8230;]]]></summary>
+		<content type="html" xml:base="http://wordpress.org/news/2013/05/ten-good-years/"><![CDATA[<p><img class="alignright" alt="" align="right" src="http://wpdotorg.files.wordpress.com/2013/05/wp10.jpg" width="316" height="164" />It&#8217;s been ten years since we started this thing, and what a long way we&#8217;ve come. From a discussion between myself and <a href="http://mikelittle.org/">Mike Little</a> about <a href="http://ma.tt/2003/01/the-blogging-software-dilemma/">forking our favorite blogging software</a>, to powering 18% of the web. It&#8217;s been a crazy, exciting, journey, and one that won&#8217;t stop any time soon.</p>
+<p>At ten years, it&#8217;s fun to reflect on our beginnings. We launched WordPress on 27th May 2003, but that wasn&#8217;t inception. Go back far enough, and you can <a href="http://zengun.org/weblog/archives/2001/06/post1958/">read a post by Michel Valdrighi</a> who, frustrated by the self-hosted blogging platforms available, decided to write his own software; &#8220;b2, a PHP+MySQL alternative to Blogger and GreyMatter.&#8221; b2 was easy to install, easy to configure, and easy for developers to extend. Of all the blogging platforms out there, <a href="http://cafelog.com">b2</a> was the right one for me: I could write my content and get it on the web quickly and painlessly.</p>
+<p>Sometimes, however, life gets in the way. In 2002, Michel stopped maintaining b2. Over time, security flaws became apparent and updates were needed and, while the b2 community could write patches and fixes, no one was driving the software forward. We were lucky that Michel decided to release b2 under the GPL; the software may have been abandoned, but we weren&#8217;t without options. A fork was always a possibility. That was where it stood in January 2003, when <a href="http://ma.tt/2003/01/the-blogging-software-dilemma/">I posted about forking b2</a> and <a href="http://ma.tt/2003/01/the-blogging-software-dilemma/#comment-445">Mike responded</a>. The rest, as they say, is history.</p>
+<p>From the very beginning to the present day, I&#8217;ve been impressed by the thought, care, and dedication that WordPress&#8217; developers have demonstrated. Each one has brought his or her unique perspective, each individual has strengthened the whole. It would be impossible to thank each of them here individually, but their achievements speak for themselves. In WordPress 1.2 the new Plugin API made it easy for developers to extend WordPress. In the same release <code>gettext()</code> internationalization opened WordPress up to every language (hat tip: <a href="http://ryan.boren.me/">Ryan Boren</a> for spending hours wrapping strings with gettext). In WordPress 1.5 our Theme system made it possible for WordPress users to quickly change their site&#8217;s design: there was huge resistance to the theme system from the wider community at the time, but can you imagine WordPress without it? Versions 2.7, 2.8, and 2.9 saw improvements that let users install and update their plugins and themes with one click. WordPress has seen a redesign by <a href="http://v2.happycog.com/create/wordpress/?p=design/wordpress/">happycog</a> (2.3) and gone under extensive user testing and redesign (<a href="http://www.slideshare.net/edanzico/riding-the-crazyhorse-future-generation-wordpress-presentation">Crazyhorse</a>, Liz Danzico and Jen Mylo, WordPress 2.5). In WordPress 3.0 we merged WordPress MU with WordPress &#8212; a huge job but 100% worth it. And in WordPress 3.5 we revamped the media uploader to make it easier for people to get their images, video, and media online.</p>
+<p>In sticking to our commitment to user experience, we&#8217;ve done a few things that have made us unpopular. The <a href="http://tech.gaeatimes.com/index.php/archive/wordpress-wysiwyg-editor-is-a-disaster/">WYSIWYG editor</a> was hated by many, especially those who felt that if you have a blog you should know HTML. Some developers hated that we stuck with our code, refusing to rewrite, but it&#8217;s always been the users that matter: better a developer lose sleep than a site break for a user. Our code isn&#8217;t always beautiful, after all, when WordPress was created most of us were still learning PHP, but we try to make a flawless experience for users.</p>
+<p>It&#8217;s not all about developers. WordPress&#8217; strength lies in the diversity of its community. From the start, we wanted a low barrier to entry and we came up with our &#8220;famous 5 minute install&#8221;. This brought on board users from varied technical background: people who didn&#8217;t write code wanted to help make WordPress better. If you couldn&#8217;t write code, it didn&#8217;t matter: you could answer a question in the support forums, write documentation, translate WordPress, or build your friends and family a WordPress website. There is <a href="https://make.wordpress.org/">space in the community</a> for anyone with a passion for WordPress.</p>
+<p>It&#8217;s been wonderful to see all of the people who have used WordPress to build their home on the internet. Early on <a href="http://wordpress.org/news/2004/04/switchers/">we got excited</a> by <a href="http://wordpress.org/news/2004/04/more-switchers/">switchers</a>. From a community of tinkerers we grew, as writers such as <a href="http://ma.tt/2004/05/om-malik/">Om Malik</a>, <a href="http://dougal.gunters.org/blog/2004/05/15/mark-pilgrim-switches/">Mark Pilgrim</a>, and <a href="http://ma.tt/2004/07/mollycom-switches/">Molly Holzschlag</a> made the switch to WordPress. Our commitment to effortless publishing quickly paid off and has continued to do so: <strong>the WordPress 1.2 release saw 822 downloads per day, our latest release, WordPress 3.5, has seen 145,692 per day.</strong></p>
+<p>I&#8217;m continually amazed by what people have built with WordPress. I&#8217;ve seen <a href="http://justintimberlake.com/main/">musicians</a> and <a href="http://ma.tt/2013/01/neil-leifer-on-wordpress/">photographers</a>, magazines such as <a href="http://life.time.com/">Life</a>, <a href="http://boingboing.net/">BoingBoing</a>, and the <a href="http://observer.com/">New York Observer</a>, <a href="http://www.compliance.gov/">government websites</a>, a <a href="http://josephscott.org/archives/2011/05/pressfs-a-wordpress-filesystem/">filesystem</a>, <a href="http://www.ymcanyc.org/association/pages/y-mvp"> mobile applications</a>, and even <a href="http://www.viper007bond.com/2010/06/12/so-apparently-wordpress-can-guide-missiles/">seen WordPress guide missiles</a>.</p>
+<p>As the web evolves, WordPress evolves. Factors outside of our control will always influence WordPress&#8217; development: today it&#8217;s mobile devices and retina display, tomorrow it could be Google Glass or technology not yet conceived. A lot can happen in ten years! As technology changes and advances, WordPress has to change with it while remaining true to its core values: making publishing online easy for everyone. How we rise to these challenges will be what defines WordPress over the coming ten years.</p>
+<p><strong>To celebrate ten years of WordPress, we&#8217;re working on a book about our history.</strong> We&#8217;re carrying out interviews with people who have involved with the community from the very beginning, those who are still around, and those who have left. It&#8217;s a huge project, but we wanted to have something to share with you on the 10th anniversary. To learn about the very early days of WordPress, just after Mike and I forked b2 <a href="http://wordpress.org/about/history/">you can download Chapter 3 right here</a>. We&#8217;ll be releasing the rest of the book serially, so watch out as the story of the last ten years emerges.</p>
+<p>In the meantime, <a href="http://ma.tt/2013/05/dear-wordpress/"> I penned my own letter to WordPress</a> and other community members have been sharing their thoughts:</p>
+<ul>
+<li><a href="http://zed1.com/journalized/archives/2013/01/25/wordpress-a-10-year-journey/">Mike Little on our Ten Year Journey</a>.</li>
+<li>Core contributor Helen Hou-Sandi <a href="http://helen.wordpress.com/2013/05/27/happy-10th-wordpress-and-thanks-from-my-little-family/">wishes WordPress happy birthday</a>.</li>
+<li>Peter Westwood on <a href="http://blog.ftwr.co.uk/archives/2013/05/27/a-decade-gone-more-to-come/">a decade gone</a>.</li>
+<li>Support rep Mika Epstein <a href="http://ipstenu.org/2013/you-me-and-wp/">on her WordPress journey</a>.</li>
+<li>Dougal Campbell <a href="http://dougal.gunters.org/blog/2013/05/27/instagram-my-wife-suzecampbell-and-i-celebrating-the-wordpress-10th-anniversary-with-bbq-in-our-wordpress-shirts-wp10/">celebrating with his wife, Suze</a>.</li>
+<li>Otto on <a href="http://ottodestruct.com/blog/2013/how-wp-affected-me/">how WordPress affected him</a>.</li>
+</ul>
+<p>You can see how WordPress&#8217; 10th Anniversary was celebrated all over the world <a href="http://wp10.wordpress.net/">by visiting the wp10 website</a>, according to Meetup we had 4,999 celebrators.</p>
+<p>To finish, I just want to say thank you to everyone: to the developers who write the code, to the designers who make WordPress sing, to the worldwide community translating WordPress into so many languages, to volunteers who answer support questions, to those who make WordPress accessible, to the systems team and the plugin and theme reviewers, to documentation writers, event organisers, evangelists, detractors, supporters and friends. Thanks to the jazzers whose music inspired us and whose names are at the heart of WordPress. Thanks to everyone who uses WordPress to power their blog or website, and to everyone who will in the future. Thanks to WordPress and its community that I&#8217;m proud to be part of.</p>
+<p>Thank you. I can&#8217;t wait to see what the next ten years bring.</p>
+<p><em>Final thanks to <a href="http://siobhanmckeown.com/">Siobhan McKeown</a> for help with this post.</em></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://wordpress.org/news/2013/05/ten-good-years/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://wordpress.org/news/2013/05/ten-good-years/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Jen Mylo</name>
+						<uri>http://profiles.wordpress.org/users/jane/</uri>
+					</author>
+		<title type="html"><![CDATA[The Next 10 Starts Now]]></title>
+		<link rel="alternate" type="text/html" href="http://wordpress.org/news/2013/05/the-next-10-starts-now/" />
+		<id>http://wordpress.org/news/?p=2594</id>
+		<updated>2013-05-27T21:57:32Z</updated>
+		<published>2013-05-27T20:47:05Z</published>
+		<category scheme="http://wordpress.org/news" term="Community" />		<summary type="html"><![CDATA[All around the globe today, people are celebrating the 10th anniversary of the first WordPress release, affectionately known as #wp10. Watching the feed of photos, tweets, and posts from Auckland to Zambia is incredible; from first-time bloggers to successful WordPress-based business owners, people are coming out in droves to raise a glass and share the [&#8230;]]]></summary>
+		<content type="html" xml:base="http://wordpress.org/news/2013/05/the-next-10-starts-now/"><![CDATA[<p>All around the globe today, people are celebrating the 10th anniversary of the first WordPress release, affectionately known as #wp10. <a href="http://wp10.wordpress.net">Watching the feed</a> of photos, tweets, and posts from Auckland to Zambia is incredible; from first-time bloggers to successful WordPress-based business owners, people are coming out in droves to raise a glass and share the &#8220;holiday&#8221; with their local communities. With hundreds of parties going on today, it&#8217;s more visible than ever just how popular WordPress has become.</p>
+<p><strong>Thank you to everyone who has ever contributed to this project: your labors of love made this day possible.</strong></p>
+<p>But today isn&#8217;t just about reflecting on how we got this far (though I thought <a href="http://ma.tt/2013/05/dear-wordpress/">Matt&#8217;s reflection on the first ten years</a> was lovely). We are constantly moving forward. As each release cycle begins and ends (3.6 will be here soon, promise!), we always see an ebb and flow in the contributor pool. Part of ensuring the longevity of WordPress means mentoring new contributors, continually bringing new talent and fresh points of view to our family table.</p>
+<p>I am beyond pleased to announce that this summer we will be mentoring 8 interns, most of them new contributors, through <a href="http://www.google-melange.com/gsoc/homepage/google/gsoc2013">Google Summer of Code</a> and the <a href="https://live.gnome.org/OutreachProgramForWomen/2013/JuneSeptember">Gnome Outreach Program for Women</a>. Current contributors, who already volunteer their time working on WordPress, will provide the guidance and oversight for a variety of exciting projects  this summer. Here are the people/projects involved in the summer internships:</p>
+<ul>
+<li><strong><strong>Ryan McCue</strong>, </strong>from Australia, working on a JSON-based REST API. Mentors will be Bryan Petty and Eric Mann, with a reviewer assist from Andrew Norcross.</li>
+<li><strong>Kat Hagan</strong>, from the United States, working on a Post by Email plugin to replace the core function. Mentors will be Justin Shreve and George Stephanis, with an assist from Peter Westwood.</li>
+<li><strong>Siobhan Bamber</strong>, from Wales, working on a support (forums, training, documentation) internship. Mentors will be Mika Epstein and Hanni Ross.</li>
+<li><strong>Frederick Ding</strong>, from the United States, working on improving portability. Mentors will be Andrew Nacin and Mike Schroder.</li>
+<li><strong>Sayak Sakar</strong>, from India, working on porting WordPress for WebOS to Firefox OS. Mentor will be Eric Johnson.</li>
+<li><strong>Alex Höreth</strong>, from Germany, working on  adding WordPress native revisions to the theme and plugin code editors. Mentors will be Dominik Schilling and Aaron Campbell, with a reviewer assist from Daniel Bachhuber.</li>
+<li><strong>Mert Yazicioglu</strong>, from Turkey, working on ways to improve our community profiles at profiles.wordpress.org. Mentors will be Scott Reilly and Boone Gorges.</li>
+<li><strong>Daniele Maio</strong>, from Italy, working on a native WordPress app for Blackberry 10. Mentor will be Danilo Ercoli.</li>
+</ul>
+<p>Did you notice that our summer cohort is as international as the #wp10 parties going on today? I can only think that this is a good sign.</p>
+<p>It&#8217;s always a difficult process to decide which projects to mentor through these programs. There are always more applicants with interesting ideas with whom we&#8217;d like to work than there are opportunities. Luckily, WordPress is a free/libre open source software project, and anyone can begin contributing at any time. Is this the year for you? We&#8217;d love for you to join us as we work toward #wp20. <img src='http://wordpress.org/news/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://wordpress.org/news/2013/05/the-next-10-starts-now/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://wordpress.org/news/2013/05/the-next-10-starts-now/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Mark Jaquith</name>
+						<uri>http://profiles.wordpress.org/users/markjaquith/</uri>
+					</author>
+		<title type="html"><![CDATA[WordPress 3.6 Beta 3]]></title>
+		<link rel="alternate" type="text/html" href="http://wordpress.org/news/2013/05/wordpress-3-6-beta-3/" />
+		<id>http://wordpress.org/news/?p=2584</id>
+		<updated>2013-05-11T04:40:10Z</updated>
+		<published>2013-05-11T03:44:41Z</published>
+		<category scheme="http://wordpress.org/news" term="Development" />		<summary type="html"><![CDATA[WordPress 3.6 Beta 3 is now available! This is software still in development and we really don’t recommend that you run it on a production site — set up a test site just to play with the new version. To test WordPress 3.6, try the WordPress Beta Tester plugin (you’ll want “bleeding edge nightlies”). Or you can download the beta here (zip). Beta [&#8230;]]]></summary>
+		<content type="html" xml:base="http://wordpress.org/news/2013/05/wordpress-3-6-beta-3/"><![CDATA[<p>WordPress 3.6 Beta 3 is now available!</p>
+<p>This is software still in development and <strong>we <em>really</em> don’t recommend that you run it on a production site</strong> — set up a test site just to play with the new version. To test WordPress 3.6, try the <a href="http://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want “bleeding edge nightlies”). Or you can <a href="http://wordpress.org/wordpress-3.6-beta3.zip">download the beta here</a> (zip).</p>
+<p>Beta 3 contains about a hundred changes, including improvements to the image Post Format flow (yay, drag-and-drop image upload!), a more polished revision comparison screen, and a more quote-like quote format for Twenty Thirteen.</p>
+<p>As a bonus, we now have oEmbed support for the popular music-streaming services <a href="http://www.rdio.com/">Rdio</a> and <a href="http://www.spotify.com/">Spotify</a> (the latter of which kindly created an oEmbed endpoint a mere 24 hours after we lamented their lack of one). Here&#8217;s an album that&#8217;s been getting a lot of play as I&#8217;ve been working on WordPress 3.6:</p>
+<p><iframe width="500" height="250" src="https://rd.io/i/Qj5r8SE//?source=oembed" frameborder="0"></iframe></p>
+<p><iframe src="https://embed.spotify.com/?uri=spotify:album:6dJZDZMNdBPZrJcNv57bEq" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></p>
+<p>Plugin developers, theme developers, and WordPress hosts should be testing beta 3 extensively. The more you test the beta, the more stable our release candidates and our final release will be.</p>
+<p>As always, if you think you’ve found a bug, you can post to the <a href="http://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. Or, if you’re comfortable writing a reproducible bug report, <a href="http://core.trac.wordpress.org/">file one on the WordPress Trac</a>. There, you can also find <a href="http://core.trac.wordpress.org/report/5">a list of known bugs</a> and <a href="http://core.trac.wordpress.org/query?status=closed&amp;group=component&amp;milestone=3.6">everything we&#8217;ve fixed</a> so far.</p>
+<p>We&#8217;re looking forward to your feedback. If you find a bug, please report it, and if you’re a developer, try to help us fix it. We&#8217;ve already had more than 150 contributors to version 3.6 — it&#8217;s not too late to join in!</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://wordpress.org/news/2013/05/wordpress-3-6-beta-3/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://wordpress.org/news/2013/05/wordpress-3-6-beta-3/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Mark Jaquith</name>
+						<uri>http://profiles.wordpress.org/users/markjaquith/</uri>
+					</author>
+		<title type="html"><![CDATA[WordPress 3.6 Beta 2]]></title>
+		<link rel="alternate" type="text/html" href="http://wordpress.org/news/2013/04/wordpress-3-6-beta-2/" />
+		<id>http://wordpress.org/news/?p=2579</id>
+		<updated>2013-04-29T22:48:55Z</updated>
+		<published>2013-04-29T22:48:55Z</published>
+		<category scheme="http://wordpress.org/news" term="Development" />		<summary type="html"><![CDATA[WordPress 3.6 Beta 2 is now available! This is software still in development and we really don’t recommend that you run it on a production site — set up a test site just to play with the new version. To test WordPress 3.6, try the WordPress Beta Tester plugin (you’ll want “bleeding edge nightlies”). Or you can download the beta here (zip). The [&#8230;]]]></summary>
+		<content type="html" xml:base="http://wordpress.org/news/2013/04/wordpress-3-6-beta-2/"><![CDATA[<p>WordPress 3.6 Beta 2 is now available!</p>
+<p>This is software still in development and <strong>we <em>really</em> don’t recommend that you run it on a production site</strong> — set up a test site just to play with the new version. To test WordPress 3.6, try the <a href="http://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want “bleeding edge nightlies”). Or you can <a href="http://wordpress.org/wordpress-3.6-beta2.zip">download the beta here</a> (zip).</p>
+<p>The longer-than-usual delay between beta 1 and beta 2 was due to poor user testing results with the Post Formats UI. Beta 2 contains a modified approach for format choosing and switching, which has done well in user testing. We&#8217;ve also made the Post Formats UI hide-able via Screen Options, and set a reasonable default based on what your theme supports.</p>
+<p>There were a lot of bug fixes and polishing tweaks done for beta 2 as well, so definitely check it out if you had an issues with beta 1.</p>
+<p>Plugin developers, theme developers, and WordPress hosts should be testing beta 2 extensively. The more you test the beta, the more stable our release candidates and our final release will be.</p>
+<p>As always, if you think you’ve found a bug, you can post to the <a href="http://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. Or, if you’re comfortable writing a reproducible bug report, <a href="http://core.trac.wordpress.org/">file one on the WordPress Trac</a>. There, you can also find <a href="http://core.trac.wordpress.org/report/5">a list of known bugs</a> and <a href="http://core.trac.wordpress.org/query?status=closed&amp;group=component&amp;milestone=3.6">everything we&#8217;ve fixed</a> so far.</p>
+<p>We&#8217;re looking forward to your feedback. If you find a bug, please report it, and if you’re a developer, try to help us fix it. We&#8217;ve already had more than 150 contributors to version 3.6 — it&#8217;s not too late to join in!</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://wordpress.org/news/2013/04/wordpress-3-6-beta-2/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://wordpress.org/news/2013/04/wordpress-3-6-beta-2/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+	</feed>
