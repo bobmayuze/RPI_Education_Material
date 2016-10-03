@@ -1,20 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-	<title>RSS Title</title>
-	<description>This is an example of an RSS feed</description>
+	<title>Funny Webs</title>
+	<description>This is a collection of interesting websites of an RSS feed</description>
 	<link>http://www.example.com/</link>
-	<lastBuildDate>Tue, 12 Oct 2010 00:01:00 +0000 </lastBuildDate>
-	<pubDate>Tue, 12 Oct 2010 00:01:00 +0000 </pubDate>
+	<lastBuildDate>Thur, 29 Sep 2016 16:52:00 +0000 </lastBuildDate>
+	<pubDate>Thur, 29 Sep 2016 16:52:00 +0000</pubDate>
  
 	<item>
-		<title>Example entry</title>
-		<description>Here is some text containing an interesting description of the thing to be described.</description>
-		<link>http://www.wikipedia.org/</link>
-		<guid>http://www.example.com/uniqueStringPerItem</guid>
-	  <pubDate>Tue, 12 Oct 2010 00:45:00 +0000 </pubDate>
+		<title>Bob's personal blog</title>
+		<description>This webpage is made for Bob to say whatever he wants.</description>
+		<link>bobmayuze.github.io</link>
+		<guid>bobmayuze.github.io</guid>
+	  <pubDate>Thur, 29 Sep 2016 16:52:00 +0000 </pubDate>
 	</item>
- 
+
+	<item>
+		<title>W3SCHOOL</title>
+		<description>This is a webiste for webpage related technologies studying center.</description>
+		<link>http://www.w3schools.com/</link>
+		<guid>http://www.w3schools.com/</guid>
+	  <pubDate>Thur, 29 Sep 2016 16:52:00 +0000 </pubDate>
+	</item>
+
+	<item>
+		<title>Documentation for CS1 @ RPI</title>
+		<description>This webpage is made for CSCI-1000 course at Rensselaer Polytechnic Institute.</description>
+		<link>http://cs.rpi.edu/academics/courses/fall16/cs1/</link>
+		<guid>http://cs.rpi.edu/academics/courses/fall16/cs1/</guid>
+	  <pubDate>Thur, 29 Sep 2016 16:52:00 +0000 </pubDate>
+	</item> 
+
+	<item>
+		<title>Course syllabus for Data Structure</title>
+		<description>This webpage is made for for CSCI-1200 course at Rensselaer Polytechnic Institute.</description>
+		<link>http://www.cs.rpi.edu/academics/courses/fall16/csci1200/syllabus.php</link>
+		<guid>http://www.cs.rpi.edu/academics/courses/fall16/csci1200/syllabus.php</guid>
+	  <pubDate>Thur, 29 Sep 2016 16:52:00 +0000 </pubDate>
+	</item>
+
+	<item>
+		<title>NICHE</title>
+		<description>This webpage is made for studnets and their parenets to have a better understanding of a school</description>
+		<link>https://niche.com/</link>
+		<guid>https://niche.com/</guid>
+	  <pubDate>Thur, 29 Sep 2016 16:52:00 +0000 </pubDate>
+	</item>
 </channel>
 </rss>
 

@@ -1,0 +1,42 @@
+Oct, 1st, 2016
+---
+1.
+
+	a.The computer is capable of knowing where we are going due to the URL we typed in. URL stands for Uniform Resource Locator. Every URL is unique and they stands for the address of the resource we want to visit. After we typed in URL, the DNS server will resolve the URL and tell our computer which IP address exactly we are going to. Because of that, our computer can know where to go.
+
+	b.No we do not need to. Three-way hand shake is used for the situation in which both server and client have not idea about the address of each other. However, when I am on RPI network and the page is also in this network, I've knew the position already.
+
+2.
+	
+	HTML4 and XHTML 1.0 together formed the basement of early websites. 
+
+	Compared with HTML4, HTML 5 has much more easier and simplified syntax such as the DOCTYPE element.
+
+	Next, HTML 5 contains more multimedia tags such as video. In HTML4, if we want to put video there, we have to make use of flash or some other extensions.
+
+	After that, HTML5 havs more tags and separates the head, body, and footer while HTML4 does not, which makes developer can construct the prototype quickly.
+
+	As for the challeges, it is really difficult for these browsers to render the HTML5. In that case, HMTL 5 may not work on a lot of early version web browsers. On the other hand, corss-platform does not mean the exactly the same code. Developers still need to adjust the code for different devices.
+
+3.
+	The color will be black, which is the default color. The text-color is a invalid syntax. The blockTitle is not defined here and there should not be space in a classname.
+
+4.
+	a. 
+		pts add plotkr2 may7:iit
+		pts removeuser hugheg may7:iit
+	pts stands for Protection Server, it helps us to administer the access to the website for different users on the server.
+
+	b. It is a fairly good structure. I have only index.html and some other import html pages on the root directory and other assets in the resources folder. I probably may not change the structure because it leads to a lot of changes in the head of html files while I have not separate them yet. However, if I can modify it further, I would like to remove the projects.html and put it in the resources because normall there should only be pages listed in navbar at the root directory.
+
+5.
+	a.Metcalfe's law states that the value of a telecommunications network is proportional to the square of the number of connected users of the system (n^2).
+
+	b.
+	Matthew effect and Metcalfe;s law
+	After this exercise, I feel the Matthew effect is amazingly applied here. At the very end of the exercise, every country is looking forward to connecting with countries have complete connections already. What's more, the connection between each country is established faster and faster toward the end of the exercise because we can share connections via the channels they build already. 
+6. 
+	a. As far as I am concerned, I regard web science as the science for better processing information and present it to people. It is based on computer science, but they are not the same. To some degree, web science is the future of computer science. It matters because due to the developments of technology, it is more easier for people to deliver information to each other. In that case, the science of processing these information is of great importance.
+
+	b.Web Science Method
+
