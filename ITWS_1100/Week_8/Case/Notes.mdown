@@ -1,0 +1,46 @@
+Oct, 18th, 2016
+---
+
+
+RX PHARMACY: PHYSICAL VERSUS ONLINE OPTIONS
+Should Rx Pharmacy focus on its online presence only, or should it also rebuild its physical stores?
+
+What kind of technical and digital capabilities will Alankit Life Care need for success in e-pharmacy?
+
+What are the different strategies that Rx Pharmacy can adopt to achieve its target of 50,000 customers and 2,000 associated retail pharmacies by 2016?
+
+O2O, known as online to offline, was the hottest spot of investment market of China in 2014. Back to two years ago, almost every firm was claiming their tendency of O2O to attract investments form the capitals. However, only very few of them did it and make the transform successfully such as Apple and its Apple store. The others are neither bankrupt or stop the plan of O2O their business models, such as the one mentioned in the case, RX PHARMACY. 
+
+Rx Pharmacy is part of Alankit Life Care’s business strategy units. Initially, it had only one physical store in Delhi in 2004. At that time, it's commercial transaction is mainly B2B. It focused on dealing with government running institutions such as Air Force, Hospitals and some other government institutions. In 2009, the number of physical stores expaned to 3. In 2012, the number reached to 14, which is more than trible of three years ago.
+
+However, the increasing number does not promise Rx Pharmacy with extra profits. In constract, these stores dragged Rx Pharmacy down. The lack of proficiency of medical, unhelpful staff, extremely loose property managing system, and large amount of fee for renting these stores lead to the falire of the physical stores.
+
+Unlike the offline stores, the business model of online Rx Pharmacy actually works very well. The commercial transaction is more like B2C with having a lot of pharmacies in the health care industry. Rx Pharmacy works as the connection between the pharmacies and customers to sell its products. 
+
+The online Rx Pharmacy even have a relatively completed products transporation system. They hired a dozen of couriers on a daily basis and also cooperate with other authorized pharmacies to deliver its products.
+
+In short, the online Rx Pharmacy is pretty successful compared the offline Rx Pharmacy.
+
+1.Should Rx Pharmacy focus on its online presence only, or should it also rebuild its physical stores?
+	
+	As for this question, I hold the point that they should also rebuild their physical stores while they are focusing on the online presence. However, they don't really need to start a new store or doing somethings like that. They could cooperate with the local retails, which can save the cost a lot. The saved money could be used for hiring experts with strong background of medical to help run this physical stores such as train the staff.
+
+	What's more, it's also a good idea to combine the physical stores with the online purchasing system, which can avoid the problem of lack of knowledge about medical for the staff.
+
+
+2.What kind of technical and digital capabilities will Alankit Life Care need for success in e-pharmacy?
+
+	To succeed in e-pharmacy, Alankit Life Care needs the capabilities of building software for users to do the purchasing quickly and easily. To be more specific, technilogy of dealing with requests, tracing orders, and even handling the feedback will be needed for further improvements. All fo these parts coulb be down with web applications, which means they also need the capabilities of building web applications with user-friendly design.
+
+3.What are the different strategies that Rx Pharmacy can adopt to achieve its target of 50,000 customers and 2,000 associated retail pharmacies by 2016?
+
+	To complete this aim, Rx Pharmacy can take advantage of recordxpert or try build the new rule of online medicine selling rules. 
+	By taking advantage of recordxpert, they can predict the market requirements in the future based on the data from recordxpert. When they can provide customers with the products on time, the loyalty of customers will automically increase to ensure more benefits.
+	By setting the new rules, they can build a complete system of seller recognization and product check system. In that way, Rx Pharmacy can probably be the standard of e-pharmacy, and customers will also automically choose this authority to ensure their health.
+
+
+
+
+
+
+

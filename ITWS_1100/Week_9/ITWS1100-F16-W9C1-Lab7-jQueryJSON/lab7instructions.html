@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>ITWS1100 - Fall 2016 - Lab 7</title>
+      <style>
+
+/*I have included the css here for convenience only*/
+
+         body {
+            font-family: helvetica;
+            width: 600px;
+         }
+         .noteThis {
+            color:red;
+            font-size:110%;
+         }
+         .minor {
+            line-height: 90%!important;
+            font-size:90%!important;
+            border-style: solid;
+            border-color: red;
+            padding:5px;
+            text-align: left;
+            width: 80%;
+         }
+         .minor strong {
+            font-size: 105%;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Lab 7 - JavaScript, JSON and AJAX</h1>
+      <p>In lab 3 we made a website which consisted of a homepage (index.html) and a projects page.  Since then we have been adding projects to that page for each lab.</p>
+      <p>Well, here we go again.   We are going to modify the projects page we created in that lab again, but this time in a different way.
+      <p>In this lab, 
+      <ul>
+         <li>We are going to make a JSON file with a list of our project menu items<br/>
+             <p class="minor">
+                I have provided a <a href="lab7jsontemplate.json"><strong>template</strong></a> to get you started.<br/><br/>
+                Read up on <a href="http://api.jquery.com/jQuery.ajax/">jQuery AJAX</a> here.<br/><br/>
+                I have provided a <a href="lab7old/lab7solved.html"><strong>sample</strong></a> of Lab 7 from a previous year as an example of how to use AJAX to read a file.
+                </p>
+         </li>
+         <li>We are going to write some JavaScript to read that file and create our projects menu for our website from that file. 
+             <p class="minor">Your javascript file <strong><em>must</em></strong> be external to your HTML file.</p></li>
+      </ul>
+      <p>In order to read the file, you will use AJAX - a working example from another lab is included as well.</p>
+
+      <p class="noteThis">In order to test this file with Chrome when the website is loaded on your PC/Mac, you will need to open Chrome with one of the commands shown below.</p>
+
+
+      <ul>
+         <li>On the PC:</li>
+         <li>
+         <ul>
+            <li>chrome.exe --allow-file-access-from-files</li>
+            <li>-or-</li>
+            <li>chrome.exe --disable-web-security</li>
+         </ul>
+         </li>
+         <li>on the Mac:</li>
+         <li>
+         <ul>
+            <li>open -b com.google.chrome --args --disable-web-security</li>
+            <li>-or-</li>
+            <li>/Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-file-access-from-files</li>
+         </ul>
+         </li>
+      </ul>
+      <p>It may be possible to bypass this need by using a .js extension for your json file name, but this is not always consistent.</p>
+      <p>The reason for this has to do with the Same Origin Policy settings in Chrome - more on this in the future.</p>
+      <p>You will not need these flags when running your site from RCS.  Additionally, <strong>Firefox</strong> should work without the need for flags.</p>
+      <p class="noteThis">When you are done, place a link to the Homepage of your website on LMS.
+      </p>      
+      <p>You will be graded according to the following criteria: 
+         <a href="lab7rubric.txt">Lab 7 Rubric</a>
+      </p>      
+      <p>NOTE: Going forward through the semster you should be able to simply add a record into the JSON file and have your menu be updated accordingly without have to again edit your projects page.
+      </p>
+
+
+
+    </body>
+</html>

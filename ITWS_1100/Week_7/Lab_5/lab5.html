@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Lab 5</title>    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>    
+    <link href="lab5.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="lab5.js"></script>
+  </head>
+  <body>
+    <div id="bodyBlock">
+      <h1>Intro to IT - Lab 5</h1>
+      <h1>Yuze Bob Ma</h1>
+      <form id="addForm" name="addForm" action="#" method="post" onsubmit="return validate(this);">
+        <fieldset> 
+          <legend>Contact Information</legend>
+          <div class="formData">
+                          
+            <label class="field">First Name:</label>
+            <div class="value"><input type="text" size="60" value="" name="firstName" id="firstName"  /></div>
+            
+            <label class="field">Last Name:</label>
+            <div class="value"><input type="text" size="60" value="" name="lastName" id="lastName" /></div>
+            
+            <label class="field">Title:</label>
+            <div class="value"><input type="text" size="60" value="" name="title" id="title" /></div>
+            
+            <label class="field">Organization:</label>
+            <div class="value"><input type="text" size="60" value="" name="org" id="org" /></div>
+            
+            <label class="field">Nickname:</label>
+            <div class="value"><input type="text" size="60" value="" name="pseudonym" id="pseudonym" /></div>
+            
+            <label class="field">Comments:</label>
+            <div class="value"><textarea rows="4" cols="40" name="comments" id="comments" onfocus="cleanComments()">Please type in here</textarea></div>
+            
+            <input type="submit" value="save" id="save" name="save"/>
+          </div>
+        </fieldset>
+      </form>
+
+      <input type="button" name="alertNickName" value="Who is him?" onclick="alertName()" />
+    </div>
+  </body>
+</html>

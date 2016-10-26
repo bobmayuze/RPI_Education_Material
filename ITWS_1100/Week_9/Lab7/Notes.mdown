@@ -1,0 +1,10 @@
+Oct, 24th, 2016
+---
+
+Browser cannot access the file on the local machine to proteck users, so we have to authorize it to open the local file.
+
+cmd in terminal:
+```
+open /Applications/Google\ Chrome.app --args --allow-file-access-from-files
+
+```

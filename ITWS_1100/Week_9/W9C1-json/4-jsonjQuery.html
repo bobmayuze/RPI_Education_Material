@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>JSON - Intro to ITWS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script type="text/javascript" src="example.json"></script>
+    <script type="text/javascript" src="jquery-1.4.3.min.js"></script>
+    <script type="text/javascript">
+		
+
+	function display() {
+		// for reference check out http://api.jquery.com/jQuery.each/			
+  	var txt="<ol>";
+	  $.each(bwEvents.bwEventList.events, function() {
+	    txt += '<li>' + this.summary + ', ' + this.start.longdate +'</li>';
+	  });
+	  txt += '</ol>';
+		 		
+	  outputBox = document.getElementById("output");
+      outputBox.innerHTML = txt;
+	}
+		
+    </script>
+    <style type="text/css">
+      body {
+        font-family: Arial, Helvetica, sans-serif; 
+      }
+      #bodyBlock {
+        text-align: center;
+        padding: 3em 2em;
+      }
+      #output {
+        margin: 1em auto;
+        padding: 2em;
+        border: 1px solid #ccc;
+        background-color: #ffe;
+				text-align:left;
+        color: black;
+        width: 880px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bodyBlock">
+      <h1>Playing with JSON</h1>
+      <p>Use the button below to expose values from the file &quot;example.json&quot;.</p>
+      <button onclick="display();">example</button>
+      <div id="output">
+        JSON values will be output here when you click the button.
+      </div>
+    </div>
+  </body>
+</html>
+
+

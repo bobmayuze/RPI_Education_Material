@@ -1,0 +1,3 @@
+starting line
+middle line is here
+		 I like this line

@@ -4,7 +4,7 @@ Oct, 1st, 2016
 
 	a.The computer is capable of knowing where we are going due to the URL we typed in. URL stands for Uniform Resource Locator. Every URL is unique and they stands for the address of the resource we want to visit. After we typed in URL, the DNS server will resolve the URL and tell our computer which IP address exactly we are going to. Because of that, our computer can know where to go.
 
-	b.No we do not need to. Three-way hand shake is used for the situation in which both server and client have not idea about the address of each other. However, when I am on RPI network and the page is also in this network, I've knew the position already.
+	b. Yes, we need to.. Three-way hand shake is used for the situation in which both server and client have not idea about the address of each other. We need three-way handshake to establish a connetion all the time even if we are on the same network. The server needs to build a connetction to the client anyway.
 
 2.
 	

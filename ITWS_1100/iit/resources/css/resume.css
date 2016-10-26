@@ -1,0 +1,40 @@
+body{
+        background-color: lightblue;
+        font-family: Arial, Helvetica, sans-serif; 
+      }
+      .person{
+        margin: 5em 10em 5em 10em;
+        text-align: right;
+      }
+      .main_info{
+        margin-bottom: 2em;
+        margin-left: 10em;
+
+      }
+      .block_title{
+        font-weight: bold;        
+        margin-right: 5em;
+        float: left;
+        clear: left;
+      }
+      .Time_Of_School{
+        font-weight: bold;        
+        float: right;
+        clear: right;
+      }
+      .footer{
+        text-align: center;
+      }
+      p{        
+        margin-right: 10em;
+        margin-left: 10em;
+
+      }
+      ul{
+        margin-right: 10em;
+        margin-left: 10em; 
+        font-weight: bold;
+      }
+      a:hover{
+        color: red;
+      }

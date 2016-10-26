@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Home Page</title>
+    <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2012  The New York Times Company</copyright>
+    <lastBuildDate>Sun, 21 Oct 2012 22:32:45 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Home Page</title>
+      <url>http://graphics8.nytimes.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>The Caucus: Monday's Debate Puts Focus on Foreign Policy Clashes</title>
+      <link>http://thecaucus.blogs.nytimes.com/2012/10/21/mondays-debate-puts-focus-on-foreign-policy-clashes/?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://thecaucus.blogs.nytimes.com/2012/10/21/mondays-debate-puts-focus-on-foreign-policy-clashes/</guid>
+      <atom:link rel="standout" href="http://thecaucus.blogs.nytimes.com/2012/10/21/mondays-debate-puts-focus-on-foreign-policy-clashes/?partner=rss&amp;emc=rss"/>
+      <description>In the last of their three debates, President Obama and Mitt Romney will address issues ranging from Iran to the Afghan war to the unrest in the Arab world.</description>
+      <dc:creator>By DAVID E. SANGER</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 21:31:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/">Assad, Bashar Al-</category>
+      <category domain="http://www.nytimes.com/namespaces/">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/">bin Laden, Osama</category>
+      <category domain="http://www.nytimes.com/namespaces/">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/">Romney, Mitt</category>
+      <category domain="http://www.nytimes.com/namespaces/">Stewart, Jon</category>
+      <category domain="http://www.nytimes.com/namespaces/">Afghanistan War (2001- )</category>
+      <category domain="http://www.nytimes.com/namespaces/">Cyberwarfare</category>
+      <category domain="http://www.nytimes.com/namespaces/">Debates (Political)</category>
+      <category domain="http://www.nytimes.com/namespaces/">Drones (Pilotless Planes)</category>
+      <category domain="http://www.nytimes.com/namespaces/">Muslims and Islam</category>
+      <category domain="http://www.nytimes.com/namespaces/">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/">Foreign Policy (Magazine)</category>
+      <category domain="http://www.nytimes.com/namespaces/">Muslim Brotherhood (Libya)</category>
+      <category domain="http://www.nytimes.com/namespaces/">State Department</category>
+      <category domain="http://www.nytimes.com/namespaces/">Taliban</category>
+      <category domain="http://www.nytimes.com/namespaces/">Afghanistan</category>
+      <category domain="http://www.nytimes.com/namespaces/">Benghazi (Libya)</category>
+      <category domain="http://www.nytimes.com/namespaces/">China</category>
+      <category domain="http://www.nytimes.com/namespaces/">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/">Libya</category>
+      <category domain="http://www.nytimes.com/namespaces/">Pakistan</category>
+      <category domain="http://www.nytimes.com/namespaces/">Syria</category>
+      <category domain="http://www.nytimes.com/namespaces/">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/">The Caucus</category>
+    </item>
+    <item>
+      <title>For President Obama, a Complex Calculus of Race and Politics</title>
+      <link>http://www.nytimes.com/2012/10/21/us/politics/for-president-obama-a-complex-calculus-of-race-and-politics.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/21/us/politics/for-president-obama-a-complex-calculus-of-race-and-politics.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/21/us/politics/for-president-obama-a-complex-calculus-of-race-and-politics.html?partner=rss&amp;emc=rss"/>
+      <media:content url="http://graphics8.nytimes.com/images/2012/10/21/us/politics/race-1350742676802/race-1350742676802-thumbStandard.jpg" medium="image" height="75" width="75"/>
+      <media:description>President Obama in Iowa last week. As the nation&#x2019;s first black president, he has walked a careful line on the subject of race.</media:description>
+      <media:credit>Damon Winter/The New York Times</media:credit>
+      <description>Since taking office, President Obama has attempted to balance two deeply held impulses: a belief in universal politics not based on race and an embrace of black life and its challenges.</description>
+      <dc:creator>By JODI KANTOR</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 14:37:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Blacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2012</category>
+    </item>
+    <item>
+      <title>In Indiana Tight Senate Race, Senate Candidates Move to Center</title>
+      <link>http://www.nytimes.com/2012/10/21/us/politics/in-indiana-tight-senate-race-senate-candidates-move-to-center.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/21/us/politics/in-indiana-tight-senate-race-senate-candidates-move-to-center.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/21/us/politics/in-indiana-tight-senate-race-senate-candidates-move-to-center.html?partner=rss&amp;emc=rss"/>
+      <media:content url="http://graphics8.nytimes.com/images/2012/10/21/us/21indiana/21indiana-thumbStandard.jpg" medium="image" height="75" width="75"/>
+      <media:description>Richard E. Mourdock campaigning in Fishers, Ind., this month. His defeat of Senator Richard G. Lugar in the Republican primary upended the race here.</media:description>
+      <media:credit>Chris Bergin for The New York Times</media:credit>
+      <description>A contest between Richard E. Mourdock, a Tea Party-backed candidate, and Democratic Representative Joe Donnelly heats up in one of the few states expected to decide control of the chamber.</description>
+      <dc:creator>By MONICA DAVEY</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 05:38:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mourdock, Richard E</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Donnelly, Joseph Simon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Indiana</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lugar, Richard G</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Senate</category>
+    </item>
+    <item>
+      <title>Windows, Staple of Most PCs, Gets a Major Makeover</title>
+      <link>http://www.nytimes.com/2012/10/22/technology/windows-staple-of-most-pcs-gets-a-major-makeover.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/22/technology/windows-staple-of-most-pcs-gets-a-major-makeover.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/22/technology/windows-staple-of-most-pcs-gets-a-major-makeover.html?partner=rss&amp;emc=rss"/>
+      <media:content url="http://graphics8.nytimes.com/images/2012/10/22/business/22windows1/22windows1-thumbStandard.jpg" medium="image" height="75" width="75"/>
+      <media:description>At a Microsoft store in Bellevue, Wash., a customer got an introduction to Windows 8 on a tablet on Thursday. Microsoft made Windows 8 a one-size-fits-all operating system for tablets, conventional computers, and newer devices.</media:description>
+      <media:credit>Stuart Isett for The New York Times</media:credit>
+      <description>The radical new design is likely to cause some head-scratching when Windows 8 goes on sale this Friday.</description>
+      <dc:creator>By NICK WINGFIELD</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 21:44:25 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Windows (Operating System)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Microsoft Corporation|MSFT|NASDAQ</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Software</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Google Inc|GOOG|NASDAQ</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Apple Inc|AAPL|NASDAQ</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Boston Scientific Corporation|BSX|NYSE</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Facebook Inc|FB|NASDAQ</category>
+    </item>
+    <item>
+      <title>George McGovern | 1922-2012: George McGovern, a Democratic Presidential Nominee and Liberal Stalwart, Dies at 90</title>
+      <link>http://www.nytimes.com/2012/10/22/us/politics/george-mcgovern-a-democratic-presidential-nominee-and-liberal-stalwart-dies-at-90.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/22/us/politics/george-mcgovern-a-democratic-presidential-nominee-and-liberal-stalwart-dies-at-90.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/22/us/politics/george-mcgovern-a-democratic-presidential-nominee-and-liberal-stalwart-dies-at-90.html?partner=rss&amp;emc=rss"/>
+      <media:content url="http://graphics8.nytimes.com/images/2012/10/17/obituaries/MCGOVERN-OBIT-slide-X8UR/MCGOVERN-OBIT-slide-X8UR-thumbStandard.jpg" medium="image" height="75" width="75"/>
+      <media:description/>
+      <media:credit>George Tames/The New York Times</media:credit>
+      <description>To the liberal Democratic faithful, Mr. McGovern remained a standard-bearer well into old age, writing and lecturing even as his name was routinely invoked by conservatives as synonymous with what they considered the failures of liberal politics.</description>
+      <dc:creator>By DAVID E. ROSENBAUM</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 21:57:17 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McGovern, George S</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 1972</category>
+    </item>
+    <item>
+      <title>Thousands Gather in Beirut for General&#x2019;s Funeral</title>
+      <link>http://www.nytimes.com/2012/10/22/world/middleeast/thousands-gather-in-beirut-for-generals-funeral.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/22/world/middleeast/thousands-gather-in-beirut-for-generals-funeral.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/22/world/middleeast/thousands-gather-in-beirut-for-generals-funeral.html?partner=rss&amp;emc=rss"/>
+      <media:content url="http://graphics8.nytimes.com/images/2012/10/22/world/middleeast/22lebanon_1/22lebanon_1-thumbStandard.jpg" medium="image" height="75" width="75"/>
+      <media:description>An honor guard carried the caskets of Brig. Gen. Wissam al-Hassan and his bodyguard, Ahmad Sahyouni, during a funeral procession at Martyrs' Square in Beirut on Sunday.</media:description>
+      <media:credit>Bilal Hussein/Associated Press</media:credit>
+      <description>Lebanese soldiers fired bullets into the air on Sunday as protesters attempted to enter government offices in Beirut, after an emotional funeral for victims of last week&#x2019;s car bombing.</description>
+      <dc:creator>By HWAIDA SAAD and ROBERT F. WORTH</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 22:11:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Middle East and North Africa Unrest (2010- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Funerals and Memorials</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Assad, Bashar al-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lebanon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Syria</category>
+    </item>
+    <item>
+      <title>E. Donnall Thomas, Furthered Bone Marrow Transplants, Dies</title>
+      <link>http://www.nytimes.com/2012/10/22/science/e-donnall-thomas-furthered-bone-marrow-transplants-dies.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/22/science/e-donnall-thomas-furthered-bone-marrow-transplants-dies.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/22/science/e-donnall-thomas-furthered-bone-marrow-transplants-dies.html?partner=rss&amp;emc=rss"/>
+      <media:content url="http://graphics8.nytimes.com/images/2012/10/22/obituaries/22thomas-obit/22thomas-obit-thumbStandard.jpg" medium="image" height="75" width="75"/>
+      <media:description>Dr. E. Donnall Thomas in his lab at the Fred Hutchinson Cancer Research Center in Seattle, Wash.</media:description>
+      <media:credit>Susie Fitzhugh</media:credit>
+      <description>Dr. Thomas showed it was possible to transplant bone marrow to save the lives of patients dying from blood cancer, a discovery that earned him a Nobel Prize.</description>
+      <dc:creator>By DENISE GELLENE</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 20:25:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bone Marrow</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Transplants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nobel Prizes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Hutchinson, Fred, Cancer Research Center</category>
+    </item>
+    <item>
+      <title>Rescued Kurt Weill Recording Is Sweet Vindication for Accidental Discoverer</title>
+      <link>http://www.nytimes.com/2012/10/21/nyregion/rescued-kurt-weill-recording-is-sweet-vindication-for-accidental-discoverer.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/21/nyregion/rescued-kurt-weill-recording-is-sweet-vindication-for-accidental-discoverer.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/21/nyregion/rescued-kurt-weill-recording-is-sweet-vindication-for-accidental-discoverer.html?partner=rss&amp;emc=rss"/>
+      <media:content url="http://graphics8.nytimes.com/images/2012/10/21/nyregion/21WEILL1_SPAN/21WEILL1_SPAN-thumbStandard.jpg" medium="image" height="75" width="75"/>
+      <media:description>&#x201C;Railroads on Parade&#x201D; at the 1939-40 New York World&#x2019;s Fair.</media:description>
+      <media:credit>Museum of the City of New York</media:credit>
+      <description>Guy Walker has finally done what many collectors only dream of: discovering a previously unknown recording, circa 1940, by the German composer Kurt Weill.</description>
+      <dc:creator>By JOHN LELAND</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 18:20:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Weill, Kurt</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Audio Recordings and Downloads</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Railroads</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Weill, Kurt, Foundation for Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">World's Fair</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Walker, Guy</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_org_all">eBay Inc|EBAY|NASDAQ</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Facebook Inc|FB|NASDAQ</category>
+    </item>
+    <item>
+      <title>Three Killed in Shooting at Spa in Brookfield, Wis.</title>
+      <link>http://www.nytimes.com/2012/10/22/us/three-killed-in-shooting-at-spa-in-brookfield-wis.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/22/us/three-killed-in-shooting-at-spa-in-brookfield-wis.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/22/us/three-killed-in-shooting-at-spa-in-brookfield-wis.html?partner=rss&amp;emc=rss"/>
+      <description>A gunman opened fire at a day spa in a suburb of Milwaukee on Sunday, killing at least three people and injuring four, the police said.</description>
+      <dc:creator>By MICHAEL SCHWIRTZ</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 22:09:32 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wisconsin</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_org_all">McDonald's Corporation|MCD|NYSE</category>
+    </item>
+    <item>
+      <title>Giants 27, Redskins 23: Giants Beat Redskins on Late Touchdown Pass</title>
+      <link>http://www.nytimes.com/2012/10/22/sports/football/giants-beat-redskins-on-late-touchdown-pass.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/22/sports/football/giants-beat-redskins-on-late-touchdown-pass.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/22/sports/football/giants-beat-redskins-on-late-touchdown-pass.html?partner=rss&amp;emc=rss"/>
+      <media:content url="http://graphics8.nytimes.com/images/2012/10/22/sports/football/22giants-pic1/22giants-pic1-thumbStandard-v2.jpg" medium="image" height="75" width="75"/>
+      <media:description>Victor Cruz left a couple of Redskins defenders in his wake en route to a 77-yard game-winning touchdown catch and run in the closing minutes.</media:description>
+      <media:credit>Suzy Allman for The New York Times</media:credit>
+      <description>Eli Manning&#x2019;s 77-yard bomb to Victor Cruz turned around a seemingly certain defeat with 1 minute 13 seconds left after Robert Griffin III had led Washington to a go-ahead touchdown.</description>
+      <dc:creator>By SAM BORDEN</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 22:23:13 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Giants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Manning, Eli</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Washington Redskins</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Griffin, Robert III</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cruz, Victor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Moss, Santana</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+    </item>
+    <item>
+      <title>Pope Canonizes Kateri Tekakwitha and Marianne Cope</title>
+      <link>http://www.nytimes.com/2012/10/22/nyregion/pope-canonizes-kateri-tekewitha-and-marianne-cope.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/22/nyregion/pope-canonizes-kateri-tekewitha-and-marianne-cope.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/22/nyregion/pope-canonizes-kateri-tekewitha-and-marianne-cope.html?partner=rss&amp;emc=rss"/>
+      <description>Kateri Tekakwitha is the first Native American saint, and Sister Marianne Cope, a German-born nun who was raised in Utica, N.Y., moved to Hawaii to help aid lepers.</description>
+      <dc:creator>By RACHEL DONADIO</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 18:27:17 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Beatifications and Canonizations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Roman Catholic Church</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cope, Marianne</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kateri Tekewitha</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Benedict XVI</category>
+    </item>
+    <item>
+      <title>Big City: Oh, the Horror, the Horror of Upper East Side Halloween D&#xE9;cor</title>
+      <link>http://www.nytimes.com/2012/10/21/nyregion/oh-the-horror-the-horror-of-upper-east-side-halloween-decor.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2012/10/21/nyregion/oh-the-horror-the-horror-of-upper-east-side-halloween-decor.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2012/10/21/nyregion/oh-the-horror-the-horror-of-upper-east-side-halloween-decor.html?partner=rss&amp;emc=rss"/>
+      <media:content url="http://graphics8.nytimes.com/images/2012/10/21/nyregion/21BIGCITY2/21BIGCITY2-thumbStandard.jpg" medium="image" height="75" width="75"/>
+      <media:description>An inflatable Dracula on East 91st Street.</media:description>
+      <media:credit>Brian Harkin for The New York Times</media:credit>
+      <description>We are now in the era of the &#x201C;hedge-fund Halloween,&#x201D; aggressively evident on the Upper East Side, where ostentatiously ghoulish d&#xE9;cor should rightly make a viewer want to scream.</description>
+      <dc:creator>By GINIA BELLAFANTE</dc:creator>
+      <pubDate>Sun, 21 Oct 2012 19:44:34 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Halloween</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Upper East Side (NYC)</category>
+    </item>
+  </channel>
+</rss>

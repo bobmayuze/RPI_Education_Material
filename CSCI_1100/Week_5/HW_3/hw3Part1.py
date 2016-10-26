@@ -16,14 +16,14 @@ def analyse_female(target_female, year):
 			counts = female_counts[target_female_index]
 			percentage_to_top = female_counts[target_female_index]/female_counts[0]*100
 			percentage_to_sum = female_counts[target_female_index]/sum(female_counts[0:250])*100
-			print('\t{0}:{1:3d} {2:5d} {3:7.3f} {4:7.3f}'.format(year, rank, counts, percentage_to_top, percentage_to_sum))
+			print('   {0}: {1:3d} {2:5d} {3:7.3f} {4:7.3f}'.format(year, rank, counts, percentage_to_top, percentage_to_sum))
 		else:
-			print('\t{0}: Not in the top 250'.format(year))
+			print('   {0}: Not in the top 250'.format(year))
 	else:
 		return 0
 
 def analyse_male(target_male, year):
-	(male_names,male_counts) = read_names.top_in_year(year, 'f')
+	(male_names,male_counts) = read_names.top_in_year(year, 'm')
 	if male_names != []:
 		if target_male in male_names: 
 			target_male_index = male_names.index(target_male)
@@ -31,9 +31,9 @@ def analyse_male(target_male, year):
 			counts = male_counts[target_male_index]
 			percentage_to_top = male_counts[target_male_index]/male_counts[0]*100
 			percentage_to_sum = male_counts[target_male_index]/sum(male_counts[0:250])*100
-			print('\t{0}:{1:3d} {2:5d} {3:7.3f} {4:7.3f}'.format(year, rank, counts, percentage_to_top, percentage_to_sum))
+			print('   {0}: {1:3d} {2:5d} {3:7.3f} {4:7.3f}'.format(year, rank, counts, percentage_to_top, percentage_to_sum))
 		else:
-			print('\t{0}: Not in the top 250'.format(year))
+			print('   {0}: Not in the top 250'.format(year))
 	else:
 		return 0
 # Load the data into the module

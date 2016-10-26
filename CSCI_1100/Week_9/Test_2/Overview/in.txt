@@ -1,0 +1,5 @@
+starting line
+		not this line
+middle line is here
+		skip this line too
+		 I like this line

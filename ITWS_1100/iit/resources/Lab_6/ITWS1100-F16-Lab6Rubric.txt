@@ -1,0 +1,13 @@
+Lab 6 - jQuery
+
+Naming/access 				            : 1
+Indentation/Validation 			      : 2
+Overall quality of code 		      : 2
+Question 1 - alert on name click 	: 1 
+Question 2 - Show & Hide text 		: 2 
+Question 3 - Add class red 		   : 2
+
+Toggle     - +1 but nothing off
+
+--------------------------------------------------------------------
+TOTAL 10.0 max - bonus does not go over 10.

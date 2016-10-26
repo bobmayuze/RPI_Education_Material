@@ -1,0 +1,10 @@
+Lab 7 Rubric
+
+Coding Style   :  10
+JSON file      :  10
+Projects Page  :  20
+Links          :  10
+Creativity     :  20
+Structure      :  10
+
+Total          :  80
